@@ -9,8 +9,8 @@
     "strictNullChecks": false,
     "jsx": "react",
     "sourceMap": true,
-    "typeRoots": [
-      "src/@types/types"
-    ],
+    // "typeRoots": [
+    //   "src/@types/types"
+    // ],
   }
 }

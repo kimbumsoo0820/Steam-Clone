@@ -1,0 +1,61 @@
+.navbar {
+  display: block;
+  background-color: #171D25;
+  background-position: 50% 0%;
+  height: 104px;
+  width: 100%;
+  outline: solid 1px;
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    text-decoration: none solid rgb(198, 212, 223);
+    word-spacing: 0px;
+    height: 104px;
+    width: 940px;
+    margin: 0 487px 0 487px;
+    margin: 0 auto;
+    outline: dashed red 1px ;
+    .left_area {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      outline: dashed red 1px ;
+      .logo {
+        background-color: #fff;
+        height: 44px;
+        width: 176px;
+        margin: 0 40px 0 0;
+        padding: 30px 0 0 0;
+        cursor: pointer;
+      }
+      a {
+        //font
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 16px;
+        text-align: center;
+        text-decoration: none solid rgb(26, 159, 255);
+        text-transform: uppercase;
+        word-spacing: 0px;
+        color: #fff;
+        // box
+        height: 20.5px;
+        width: 64px;
+        padding: 45px, 7px 7px 7px;
+
+        display: block;
+        float: left;
+      }
+      .headerMenu_active {
+        color: #1A9FFF;
+      }
+    }
+    .right_area {
+      width: 40%;
+      display: block;
+      outline: dashed red 1px ;
+    }
+  }
+}
