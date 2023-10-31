@@ -3,11 +3,10 @@ import Home from "./page/Home/HomePage";
 import Navbar from "./components/navbar/global_navbar";
 import Favorit from "./page/Favorit/FavoritPage";
 
-
 function App() {
   return (
     <BrowserRouter>
-      <Navbar/>
+      <Navbar />
       <div>
         <Routes>
           <Route path="/" exact element={<Home />} />
