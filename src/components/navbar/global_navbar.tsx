@@ -5,7 +5,10 @@ import "./golbal_navbar.scss";
 
 
 function Navbar() {
-  const [isLogin, setLogin] = useState(true);
+  let [isLogin, setLogin] = useState<Boolean>(true);
+  let [userName, setUserName] = useState<String>('보쌈족발');
+  let [isActive, setActive] = useState<String>("headerMenu_active");
+
 
   return (
     <div className="navbar" >
@@ -17,12 +20,12 @@ function Navbar() {
             </div>
           </div>
           <div className="headerMenu">
-            <a href="#" className="headerMenu_shop headerMenu_active">상점</a>
+            <a href="#" className={'headerMenu_shop ' + isActive}>상점</a>
             <a href="#" className="headerMenu_community">커뮤니티</a>
             {
               isLogin ? 
               <>
-                <a href="#" className="headerMenu_username">joseggi</a>
+                <a href="#" className="headerMenu_username">{userName}</a>
                 <a href="#" className="headerMenu_chatting">채팅</a>
               </> :
               <a href="#" className="headerMenu_infomation">정보</a>
