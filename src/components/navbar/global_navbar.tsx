@@ -9,12 +9,12 @@ function Navbar() {
 
   return (
     <div className="navbar" >
-      <div className="content" style={{position:"fixed", backgroundColor:"white", width:"100vw"}}>
+      <div className="content">
         <div className="left_area">
           <div className="logo">
-            <a href="#">
-              <div className="image"></div>
-            </a>
+            <div>
+              <img src={`${process.env.PUBLIC_URL}/image/header/header_logo.png`}/>
+            </div>
           </div>
           <div className="headerMenu">
             <a href="#" className="headerMenu_shop headerMenu_active">상점</a>
@@ -28,7 +28,6 @@ function Navbar() {
               <a href="#" className="headerMenu_infomation">정보</a>
             }
             <a href="" className="headerMenu_support">지원</a>
-      
           </div>
         </div>
         <div className="right_area">
@@ -39,15 +38,5 @@ function Navbar() {
   )
 }
 
-function HederMenuLogin(props:Boolean) {
-  if (props) {
-    return(
-      <>
-        
-      </>
-      
-    )
-  }
-}
 
 export default Navbar;
