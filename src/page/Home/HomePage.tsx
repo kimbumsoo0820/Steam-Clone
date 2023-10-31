@@ -1,14 +1,19 @@
-import React from 'react';
+import React, { useEffect, useLayoutEffect, useState } from 'react';
 
+interface propsType {
+    word : String;
+}
 
-const hello = 'HELLO WORLD'
+export default function Home(props : propsType) {
+    let [user , setUser] = useState<String>(() => {
+        return 'hello????'
+    });
+    console.log(props.word)
+    
 
-function Header() {
     return (
-        <div>
-            {hello}
+        <div className='hello' style={{color : 'red', backgroundColor: 'blue'}}>
+            {props.word}
         </div>
     );
 }
-
-export default Header; //다른 JS파일에서 불러올 수 있도록 내보내주기
