@@ -1,0 +1,52 @@
+.outBox {
+    background-color: #1B2838;
+    height: 100vh;
+    min-height: 100%;
+}
+.contents {
+    width: 940px;
+    margin: auto;
+}
+.favoritLine {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+.favoritButton {
+    // float: right;
+    background-color: #7199A5;
+    color: white;
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    cursor: pointer;
+}
+.userProfile {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+
+}
+.userPicture {
+    // width: 100%;    
+    // background-color: tomato;
+}
+.userPictureImage {
+    width: 67px;
+    height: 67px;
+    border-radius: 2px;
+
+}
+.userName {
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}

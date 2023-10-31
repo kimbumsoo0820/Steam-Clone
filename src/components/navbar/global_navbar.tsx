@@ -3,8 +3,8 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div className="navbar">
-      <div className="content">
+    <div className="navbar" >
+      <div className="content" style={{position:"fixed", backgroundColor:"white", width:"100vw"}}>
         <div className="left_area">
           <div className="logo">
             left
