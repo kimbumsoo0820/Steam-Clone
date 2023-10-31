@@ -6,6 +6,17 @@ import '../../globalCss.scss'
 export default function Home() {
     let [favoritCount,setFavoritCount] = useState<number>(5)
     let [userName,setuserName] = useState<string>('삼겹살에 소주')
+    let [optionStatus,setOptionStatus] = useState<boolean>(false)
+    let [sortStatus,setsortStatus] = useState<boolean>(false)
+
+    function changeOptionStatus() {
+        setsortStatus(false)
+        setOptionStatus(!optionStatus)
+    }
+    function changeSortStatus() {
+        setOptionStatus(false)
+        setsortStatus(!sortStatus)
+    }
 
     return (
         <div>
@@ -18,9 +29,20 @@ export default function Home() {
                         </div>
                         <div className='userProfile'>
                             <div className='userPicture'>
-                                <img src={`${process.env.PUBLIC_URL}/image/favoritPage/steamProfile.jpg`} alt="" />
+                                <img className='userPictureImage' src={`${process.env.PUBLIC_URL}/image/favoritPage/steamProfile.jpg`} alt="" />
                             </div>
                             <div className='userName'>{userName}님의 찜 목록</div>
+                        </div>
+                        <div className='searchSort'>
+                            <input type='text' className='searchInput' placeholder="이름 또는 태그로 검색"></input>
+                            <div className='optionSort' onClick={changeOptionStatus}>옵션↓</div>
+                            <div className='sortBox' onClick={changeSortStatus}><p style={{color:'#1a9fff', marginRight:'5px'}}>정렬 기준:</p>내순위↓</div>
+                            { optionStatus &&
+                                <div className='optionSettingBox'></div>
+                            }
+                            {sortStatus && 
+                                <div className='sortSettingBox'></div>
+                            }
                         </div>
                     </div>
                 </div>
