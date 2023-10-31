@@ -12,5 +12,7 @@
     // "typeRoots": [
     //   "src/@types/types"
     // ],
-  }
+    "types": ["node"],
+  },
+
 }
