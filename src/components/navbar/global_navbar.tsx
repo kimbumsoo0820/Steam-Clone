@@ -5,7 +5,7 @@ import "./golbal_navbar.scss";
 
 
 function Navbar() {
-  let [isLogin, setLogin] = useState<Boolean>(true);
+  let [isLogin, setLogin] = useState<Boolean>(false);
   let [userName, setUserName] = useState<String>('보쌈족발');
   let [isActive, setActive] = useState<String>("headerMenu_active");
 
@@ -63,9 +63,18 @@ function Navbar() {
               </> 
               :
                 <>
-                  <div>1</div>
-                  <div>2</div>
-
+                  <div style={{display:"flex"}}>
+                    <div className="installBtnWrap">
+                      <div className="installBtnContentGreen">
+                        Steam 설치
+                     </div>
+                    </div>
+                    <div className="loginArea">
+                      <span className="loginLink">로그인</span>
+                      &nbsp;|&nbsp;
+                      <span className="languageComboBox">언어</span>
+                    </div>
+                  </div>
                 </>
             }
           </div>

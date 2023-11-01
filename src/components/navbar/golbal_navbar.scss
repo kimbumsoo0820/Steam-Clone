@@ -49,9 +49,18 @@
         display: block;
         float: left;
         position: relative;
+        &:hover {
+          color: #fff;
+          transition-duration: 250ms;
+          cursor: pointer;
+        }
       }
       .headerMenu_active{
         color: #1A9FFF;
+        &:hover {
+          color: #1A9FFF;
+          cursor: pointer;
+        }
       }
       .headerMenu_active::after{
         content: "";
@@ -67,6 +76,7 @@
     .right_area {
       width: 40%;
       display: flex;
+      padding-top: 5px;
       .actionMenu {
         margin-left: auto;
         line-height: 24px;
@@ -90,13 +100,31 @@
             background-repeat: no-repeat;
             color: #e5e4dc;
             font-weight: normal;
+            &:hover {
+              background-color: #3d4450;
+              transition-property: background;
+              transition-duration: 250ms;
+              cursor: pointer;
+            }
           }
-          :hover {
-            background-color: #3d4450;
-            transition-property: background;
-            transition-duration: 250ms;
-            cursor: pointer;
+          .installBtnContentGreen {
+            background-color: #5C7E10;
+            padding-left: 35px;
+            padding-right: 9px;
+            background-position: 10px 5px;
+            background-image: url( 'https://store.akamai.steamstatic.com/public/shared/images/header/btn_header_installsteam_download.png?v=1' );
+            background-repeat: no-repeat;
+            color: #e5e4dc;
+            font-weight: normal;
+            &:hover {
+              background-color: #6C9018;
+              transition-property: background;
+              transition-duration: 250ms;
+              cursor: pointer;
+            }
           }
+          
+          
         }
         .notificationBtn {
           background-color: rgba($color: #67707B, $alpha: 0.2);
@@ -134,16 +162,49 @@
             cursor: pointer;
           }
         }
-      }
-      .walletCntArea {
-        align-content: flex-end;
-        text-align: right;
-        padding-right: 15px;
-        line-height: normal;
-        .walletCnt {
+        .walletCntArea {
+          align-content: flex-end;
+          text-align: right;
+          padding-right: 15px;
+          line-height: normal;
+          .walletCnt {
+            font-size: 11px;
+            color: #b8b6b4;
+            padding: 0 4px;
+            &:hover {
+              color: #fff;
+              transition-duration: 250ms;
+              cursor: pointer;
+            }
+          }
+        }
+
+        .loginArea {
           font-size: 11px;
-          color: #b8b6b4;
+          line-height: 24px;
           padding: 0 4px;
+          .loginLink {
+            &:hover {
+              color: #fff;
+              transition-duration: 250ms;
+              cursor: pointer;
+            }
+          }
+          .languageComboBox {
+            margin-right: 5px;
+            padding-left: 4px;
+            line-height: 25px;
+            padding-right: 18px;
+            background-image: url( 'https://store.akamai.steamstatic.com/public/shared/images/popups/btn_arrow_down_padded.png' );
+            background-position: right center;
+            background-repeat: no-repeat;
+            &:hover {
+              color: #fff;
+              transition-duration: 250ms;
+              cursor: pointer;
+            }
+          }
+          
         }
       }
     }
