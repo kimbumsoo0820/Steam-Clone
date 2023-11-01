@@ -1,0 +1,129 @@
+[
+    {
+        "title" : "보기",
+        "items" : 
+        [
+            {
+                "item":"축소",
+                "selected" : false            
+            },
+            {
+                "item" : "보기",
+                "selected" : false
+            }
+        ]
+    },
+    {
+        "title" : "플랫폼",
+        "items" : 
+        [
+            {
+                "item":"모든 OS",
+                "selected" : false            
+            },
+            {
+                "item" : "macOS",
+                "selected" : false
+            },
+            {
+                "item" : "steamOS + Linux",
+                "selected" : false
+            }
+        ]
+    },
+    {
+        "title" : "유형",
+        "items" : 
+        [
+            {
+                "item":"모든 종류",
+                "selected" : false            
+            },
+            {
+                "item" : "게임",
+                "selected" : false
+            },
+            {
+                "item" : "소프트웨어",
+                "selected" : false
+            },
+            {
+                "item" : "DLC",
+                "selected" : false
+            },
+            {
+                "item" : "동영상",
+                "selected" : false
+            }
+        ]
+    },
+    {
+        "title" : "가격",
+        "items" : 
+        [
+            {
+                "item":"5000원 미만",
+                "selected" : false            
+            },
+            {
+                "item" : "10000원 미만",
+                "selected" : false
+            },
+            {
+                "item" : "Steam 지갑 잔액 미만",
+                "selected" : false
+            }
+        ]
+    },
+    {
+        "title" : "할인",
+        "items" : 
+        [
+            {
+                "item":"할인중",
+                "selected" : false            
+            },
+            {
+                "item" : "50% 이상",
+                "selected" : false
+            },
+            {
+                "item" : "75% 이상",
+                "selected" : false
+            }
+        ]
+    },
+    {
+        "title" : "제외",
+        "items" : 
+        [
+            {
+                "item":"앞서 해보기",
+                "selected" : false            
+            },
+            {
+                "item" : "시험판",
+                "selected" : false
+            },
+            {
+                "item" : "VR 한정",
+                "selected" : false
+            }
+        ]
+    },
+    {
+        "title" : "DECK 호환성",
+        "items" : 
+        [
+            {
+                "item":"완벽 호환",
+                "selected" : false            
+            },
+            {
+                "item" : "플레이 가능",
+                "selected" : false
+            }
+        ]
+    }
+
+]

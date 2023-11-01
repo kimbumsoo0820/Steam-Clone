@@ -1,6 +1,9 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react';
 import './FavoritPageStyle.scss'
 import '../../globalCss.scss'
+import SortOptionBox from '../../components/favorit/SortOptionBox'; 
+import SortSettingBox from '../../components/favorit/SortSettingBox';
+import OptionSortSets from './Option.json'
 
 
 export default function Home() {
@@ -8,6 +11,7 @@ export default function Home() {
     let [userName,setuserName] = useState<string>('삼겹살에 소주')
     let [optionStatus,setOptionStatus] = useState<boolean>(false)
     let [sortStatus,setsortStatus] = useState<boolean>(false)
+
 
     function changeOptionStatus() {
         setsortStatus(false)
@@ -38,10 +42,14 @@ export default function Home() {
                             <div className='optionSort' onClick={changeOptionStatus}>옵션↓</div>
                             <div className='sortBox' onClick={changeSortStatus}><p style={{color:'#1a9fff', marginRight:'5px'}}>정렬 기준:</p>내순위↓</div>
                             { optionStatus &&
-                                <div className='optionSettingBox'></div>
+                                <div className='optionBox'>
+                                    <SortOptionBox options={OptionSortSets}/>
+                                </div>
                             }
                             {sortStatus && 
-                                <div className='sortSettingBox'></div>
+                                <div className='sortSettingBox'>
+                                    <SortSettingBox />
+                                </div>
                             }
                         </div>
                     </div>

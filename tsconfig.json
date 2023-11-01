@@ -9,10 +9,8 @@
     "strictNullChecks": false,
     "jsx": "react",
     "sourceMap": true,
-    // "typeRoots": [
-    //   "src/@types/types"
-    // ],
-    "types": ["node"],
+    "types": ["node"], // image태그의 src에 이미지 삽입 가능
+    "resolveJsonModule": true, // json import 가능하게 해줌
   },
 
 }
