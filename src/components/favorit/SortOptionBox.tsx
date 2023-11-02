@@ -32,7 +32,7 @@ export default function SortOptionBox(props:propsType) {
                         <div style={{marginTop:'5px'}}>
                             {data.items.map((items,index) => (
                                 <div style={{display:'flex'}}>
-                                    <input type="radio" checked={} onChange={() => checkItems(items.item)} />
+                                    <input type="radio" onChange={() => checkItems(items.item)} />
                                     <div className='items' key={items.item.toString()}>{items.item}</div>
                                 </div>
                             ))}

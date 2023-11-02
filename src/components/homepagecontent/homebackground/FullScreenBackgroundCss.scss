@@ -7,8 +7,10 @@
   position: absolute;
   width: 100%;
   overflow: hidden;
+  background-color: black;
+  display: flex;
+  justify-content: center;
   .fullScreenVideo {
-    width: 100%;
-    min-height: max-content;
+    width: 1850px;
   }
 }
