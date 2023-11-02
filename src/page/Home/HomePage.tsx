@@ -1,19 +1,11 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react';
+import FullScreenBackground from '../../components/homebackground/FullScreenBackground';
 
-interface propsType {
-    word : String;
-}
-
-export default function Home(props : propsType) {
-    let [user , setUser] = useState<String>(() => {
-        return 'hello????'
-    });
-    console.log(props.word)
-    
-
-    return (
-        <div className='hello' style={{color : 'red', backgroundColor: 'blue'}}>
-            {props.word}
-        </div>
-    );
+export default function Home() {
+   
+  return (
+    <div className='homeBackgroundOverlay'>
+      <FullScreenBackground/>
+    </div>
+  );
 }
