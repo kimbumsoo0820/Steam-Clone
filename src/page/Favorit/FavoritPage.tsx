@@ -5,13 +5,19 @@ import SortOptionBox from '../../components/favorit/SortOptionBox';
 import SortSettingBox from '../../components/favorit/SortSettingBox';
 import OptionSortSets from './Option.json'
 
+import {setOptions, }from '../../redux/modules/favoritSort';
+import { useDispatch, useSelector } from 'react-redux'
+import {RootState, AppDispatch} from '../../redux'
+
 
 export default function Home() {
+    let dispatch = useDispatch<AppDispatch>();
     let [favoritCount,setFavoritCount] = useState<number>(5)
     let [userName,setuserName] = useState<string>('삼겹살에 소주')
     let [optionStatus,setOptionStatus] = useState<boolean>(false)
     let [sortStatus,setsortStatus] = useState<boolean>(false)
 
+    dispatch(setOptions(OptionSortSets))
 
     function changeOptionStatus() {
         setsortStatus(false)
@@ -43,7 +49,7 @@ export default function Home() {
                             <div className='sortBox' onClick={changeSortStatus}><p style={{color:'#1a9fff', marginRight:'5px'}}>정렬 기준:</p>내순위↓</div>
                             { optionStatus &&
                                 <div className='optionBox'>
-                                    <SortOptionBox options={OptionSortSets}/>
+                                    <SortOptionBox />
                                 </div>
                             }
                             {sortStatus && 
