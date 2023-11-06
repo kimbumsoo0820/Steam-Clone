@@ -13,8 +13,9 @@ interface InitialStateType {
 }
 
 
-const initialState: InitialStateType = {
-    options : []
+const initialState: any = {
+    options : [],
+    sorts: []
 };
 
 const options = createSlice({
@@ -23,12 +24,16 @@ const options = createSlice({
 
   reducers: {
     setOptions: (state, action)=> {
-        console.log('action : ',action.payload)
+        console.log('action | option : ',action.payload)
         state.options = action.payload
         // state.options = JSON.parse(JSON.stringify(action.payload))
+    },
+    setSorts: (state, action)=> {
+        console.log('action | sort : ',action.payload)
+        state.sorts = action.payload
     }
   },
 });
 
 export default options;
-export const { setOptions } = options.actions;
+export const { setOptions,setSorts } = options.actions;

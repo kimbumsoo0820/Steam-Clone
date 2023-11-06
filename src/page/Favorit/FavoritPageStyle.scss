@@ -122,7 +122,12 @@
     // border-radius: 2px;
     // background-color: #3D4450;
 }
-
+.seperator{
+    height: 1px;
+    background-color: rgba(255,255,255,0.2);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 input::placeholder {color:#78838C;}
 input::-webkit-input-placeholder {color:#78838C;}
 input:-ms-input-placeholder {color:#78838C;}

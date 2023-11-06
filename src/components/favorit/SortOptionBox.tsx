@@ -18,7 +18,7 @@ interface propsType {
     options:ObjectProps[];
 }
 
-function GetStoreData() {
+function GetOptionData() {
     const srotList = useSelector((state: RootState) => state.favoritSort);
     return srotList
 }
@@ -27,7 +27,7 @@ function GetStoreData() {
 
 
 export default function SortOptionBox() {
-    const [optionsData,setOptionsData] = useState<ObjectProps[]>(GetStoreData().options)
+    const [optionsData,setOptionsData] = useState<ObjectProps[]>(GetOptionData().options)
     let dispatch = useDispatch<AppDispatch>();
 
     function checkItems(outIndex:number,item:string) {
@@ -40,7 +40,7 @@ export default function SortOptionBox() {
         // b[1] === a[1] = true // 2depth부터 얕은복사
 
         let copyOption =JSON.parse(JSON.stringify(optionsData));
-        let findData= copyOption[outIndex].items.find((x:any) => x.item === item)
+        let findData = copyOption[outIndex].items.find((x:any) => x.item === item)
         let filterData = copyOption[outIndex].items.filter((x:any) => x.item !== item)
         if(findData) {
             findData.selected = !findData.selected
@@ -60,7 +60,7 @@ export default function SortOptionBox() {
                         <div className='title' >{data.title}</div>
                         <div style={{marginTop:'5px'}}>
                             {data.items.map((items) => (
-                                <div style={{display:'flex',marginTop:'5px'}}>
+                                <div style={{display:'flex',marginTop:'5px'}} key={items.item.toString()}>
                                     <input type="radio" checked={items.selected === true}  onChange={() => checkItems(outIndex,items.item)} />
                                     <div className='items' key={items.item.toString()}>{items.item}</div>
                                 </div>
