@@ -1,5 +1,6 @@
 import React, {ReactElement, useState} from "react";
 import "./StoreNavbarCss.scss";
+import { Link } from "react-router-dom";
 
 export default function StoreNavbar() {
   const [navTabName, setNavTabName] = useState<String[]>(['내 상점', '신규 및 특집', '카테고리', '포인트 상점', '뉴스', '실험실']);
@@ -7,7 +8,13 @@ export default function StoreNavbar() {
     <div className="storeNavArea">
       <div className="storeHeader">
         <div className="content">
-          <div className="wishList"></div>
+          <div className="wishList">
+            <div style={{color:'#C6d4df'}}>
+              <div className="wishListBtn">
+                <Link to="/favorit" className="wishListLink">찜 목록</Link>
+              </div>
+            </div>
+          </div>
           <div className="navigationArea">
             <div className="navBackground">
               <div className="navBar">

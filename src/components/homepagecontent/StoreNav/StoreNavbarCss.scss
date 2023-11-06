@@ -26,7 +26,33 @@
         right: 0;
         text-align: right;
         font-size: 11px;
-        outline: blue dashed 1px;
+        margin-right: 10px;
+        .wishListBtn {
+          box-shadow: 0 0 3px #000;
+          height: 20px;
+          position: relative;
+          border-radius: 1px;
+          float: left;
+          background-image: url(../../../../public/image/mainPage/headerNavBar/background_wishlist.jpg);
+          background-color: rgba(255, 255, 255, 0.4);
+          background-position: -34px 20px;
+          .wishListLink {
+            display: inline-block;
+            padding: 0 25px;
+            margin: 0 1px;
+            line-height: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 11px;
+            text-decoration: none;
+            color: #fff;
+            &:hover {
+              color: #111111;
+              border-radius: 1px;
+              background: linear-gradient(135deg, #ffffff 0%, #919aa3 100%);
+            }
+          }
+        }
       }
       .navigationArea {
         position: absolute;
@@ -104,9 +130,6 @@
                     box-shadow: none;
                   }
                   a {
-                    // position: absolute;
-                    // right: 2px;
-                    // top: 0;
                     display: flex;
                     justify-content: center;
                     align-items: center;
@@ -116,7 +139,6 @@
                       border: none;
                       width: 25px;
                       height: 25px;
-                      // position: absolute;
                       top: 1px;
                       right: -1px;
                       background-image: url(../../../../public/image/mainPage/headerNavBar/search_icon_btn.png);
