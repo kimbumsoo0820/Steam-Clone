@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 export default function StoreNavbar() {
   const [navTabName, setNavTabName] = useState<String[]>(['내 상점', '신규 및 특집', '카테고리', '포인트 상점', '뉴스', '실험실']);
   return(
-    <div className="storeNavArea">
+    <>
+      <div className="storeNavArea">
       <div className="storeHeader">
         <div className="content">
           <div className="wishList">
@@ -19,9 +20,9 @@ export default function StoreNavbar() {
             <div className="navBackground">
               <div className="navBar">
                 {
-                navTabName.map(function(data : String, index : Number) : ReactElement{
+                navTabName.map(function(data : String, index : React.Key) : ReactElement{
                     return(
-                      <div className="navTab">
+                      <div className="navTab" key={index}>
                         <span>{data}</span>
                       </div>
                     )
@@ -45,6 +46,9 @@ export default function StoreNavbar() {
           </div>
         </div>
       </div>
-    </div>
+      </div>
+      <div className="test"></div>
+    </>
+    
   )
 }

@@ -14,6 +14,7 @@ function App() {
           {/* <Route path="/board" element={<Board />} /> */}
         </Routes>
       </div>
+      <div style={{height:'3000px'}}></div>
     </BrowserRouter>
   );
 }
