@@ -8,10 +8,15 @@
 }
 
 .sortSettingBox {
-    
     width: 158px;
-    height: 100%;
     background-color: #3D4450;
+    padding: 0px 0px 10px 0px;
+}
+.sortList {
+    cursor: pointer;
+    padding: 8px 20px;
+    color: white;
+    font-size: 12px;
 }
 .optionSection {
     width: 25%;

@@ -4,10 +4,15 @@ import '../../globalCss.scss'
 import SortOptionBox from '../../components/favorit/SortOptionBox'; 
 import SortSettingBox from '../../components/favorit/SortSettingBox';
 import OptionSortSets from './Option.json'
+import SortSets from './Sort.json'
 
-import {setOptions, }from '../../redux/modules/favoritSort';
+
+
+
+import {setOptions, setSorts }from '../../redux/modules/favoritSort';
 import { useDispatch, useSelector } from 'react-redux'
 import {RootState, AppDispatch} from '../../redux'
+import FavoritCardMyRank from '../../components/favorit/FavoritCardMyRank';
 
 
 export default function Home() {
@@ -17,7 +22,10 @@ export default function Home() {
     let [optionStatus,setOptionStatus] = useState<boolean>(false)
     let [sortStatus,setsortStatus] = useState<boolean>(false)
 
-    dispatch(setOptions(OptionSortSets))
+    useEffect(()=> {
+        dispatch(setOptions(OptionSortSets))
+        dispatch(setSorts(SortSets))
+    },[])
 
     function changeOptionStatus() {
         setsortStatus(false)
@@ -45,19 +53,35 @@ export default function Home() {
                         </div>
                         <div className='searchSort'>
                             <input type='text' className='searchInput' placeholder="이름 또는 태그로 검색"></input>
-                            <div className='optionSort' onClick={changeOptionStatus}>옵션↓</div>
-                            <div className='sortBox' onClick={changeSortStatus}><p style={{color:'#1a9fff', marginRight:'5px'}}>정렬 기준:</p>내순위↓</div>
+                            <div className='optionSort' onClick={changeOptionStatus}>
+                                <div  >옵션</div>
+                                <div style={{display:'flex',alignItems:'center'}}>
+                                    <img  src="https://store.akamai.steamstatic.com/public/images/v6/btn_arrow_down_padded_white.png" alt="" />
+                                </div>
+                            </div>
+                            <div className='sortBox' onClick={changeSortStatus}>
+                                <div style={{display:'flex'}}>
+                                    <p style={{color:'#1a9fff', marginRight:'5px'}}>정렬 기준:</p>내순위 
+                                    <div style={{display:'flex',alignItems:'center'}}>
+                                        <img src="https://store.akamai.steamstatic.com/public/images/v6/btn_arrow_down_padded_white.png" alt="" />
+                                    </div>  
+                                </div>
+                                
+                            </div>
                             { optionStatus &&
                                 <div className='optionBox'>
                                     <SortOptionBox />
                                 </div>
                             }
                             {sortStatus && 
-                                <div className='sortSettingBox'>
+                                <div className=''>
                                     <SortSettingBox />
                                 </div>
                             }
                         </div>
+
+                        <div className='seperator'></div>
+                        <FavoritCardMyRank />
                     </div>
                 </div>
             </div>
