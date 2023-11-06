@@ -17,12 +17,12 @@ export default function FavoritCardMyRank() {
     
     return (
         <>
-            <ReactSortable list={tesetLIst} setList={setTestList} handle=".handle">
+            {/* <ReactSortable list={tesetLIst} setList={setTestList} handle=".handle">
                 {tesetLIst.map(item => (
                     <div key={item.id}>{item.name}</div>
                     
                 ))}
-            </ReactSortable>
+            </ReactSortable> */}
         </>
     );
 }
