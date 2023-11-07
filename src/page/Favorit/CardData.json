@@ -1,0 +1,46 @@
+[
+    {
+        "id": "1",
+        "name" : "Age of Empires® III (2007)",
+        "price" : 43000,
+        "evaluation" : "매우 긍정적",
+        "release" : "2012년 1월 6일",
+        "favoriteDate" : "2020. 10. 8.",
+        "image" : "https://cdn.akamai.steamstatic.com/steam/apps/105450/header_292x136.jpg?t=1667261661",
+        "os" : ["all"],
+        "tag" : ["전략", "실시간 전략", "기지 건설", "멀티 플레이어", "역사"]
+    },
+    {
+        "id": "2",
+        "name" : "Rust",
+        "price" : 46000,
+        "evaluation" : "매우 긍정적",
+        "release" : "2018년 2월 9일",
+        "favoriteDate" : "2023. 2. 4.",
+        "image" : "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.600x338.jpg",
+        "os" : ["window", "macOs"],
+        "tag" : ["생존","크래프팅","멀티플레이어","오픈월드","오픈 월드 생존 제작"]
+    },
+    {
+        "id": "3",
+        "name" : "Mount & Blade II: Bannerlord",
+        "price" : 60000,
+        "evaluation" : "매우 긍정적",
+        "release" : "2022년 10월 25일",
+        "favoriteDate" : "2023. 4. 30.",
+        "image" : "https://cdn.akamai.steamstatic.com/steam/apps/261550/ss_1ab88f5c0198a16f75db23af8477811c0996b864.600x338.jpg",
+        "os" : ["macOs","steamOs"],
+        "tag" : ["중세","전략","오픈 월드","RPG","전쟁"]
+    },
+    {
+        "id": "4",
+        "name" : "The Elder Scrolls V: Skyrim VR",
+        "price" : 69000,
+        "evaluation" : "대체로 긍정적",
+        "release" : "2018년 4월 3일",
+        "favoriteDate" : "2023. 4. 30.",
+        "image" : "https://cdn.akamai.steamstatic.com/steam/apps/611670/header_292x136.jpg?t=1564002443",
+        "os" : ["window"],
+        "tag" : ["오픈월드","RPG","VR","싱글 플레이어","어드벤처"]
+    }
+]

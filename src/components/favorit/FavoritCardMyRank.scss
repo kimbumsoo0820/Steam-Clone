@@ -12,3 +12,13 @@
     align-items: center;
     background-color: white;
 }
+
+.title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
