@@ -28,11 +28,11 @@ h2 {
 .contentArea {
   height: 380px;
   margin-top: 5px;
-  display: flex;
-  overflow: hidden;
   width: 940px;
 }
+
 .carouselItem {
+  transition: opacity 100ms ease-out;
   width: 100%;
   height: 353px;
   box-shadow: 0 0 7px #000;
@@ -51,6 +51,7 @@ h2 {
     background-position: center center;
     background-size: cover;
     box-shadow: 0 0 10px 5px #000;
+    z-index: 3;
     img {
       width: 100%;
       height: 100%;
@@ -82,7 +83,76 @@ h2 {
       margin-left: -30px;
       max-height: 176px;
       position: relative;
-      // outline: blue dashed 1px;
+      div {
+        width: 162px;
+        height: 69px;
+        padding: 10px 10px 0 0;
+        display: inline-block;
+        opacity: 0.6;
+        &:hover {
+          opacity: 1;
+        }
+      }
     }
+  }
+}
+
+.carouselThumbs {
+  text-align: center;
+  min-height: 37px;
+  div {
+    display: inline-block;
+    margin: 12px 2px;
+    width: 15px;
+    height: 9px;
+    border-radius: 2px;
+    transition: background-color 0.2s;
+    background-color: hsla(202, 60%, 100%, 0.2);
+    cursor: pointer;
+    &:hover {
+      background-color: hsla(202,60%,100%,0.3);
+    }
+  }
+  .focus {
+    background-color : hsla(202,60%,100%,0.4);
+  }
+}
+
+.arrowLeft {
+  position: absolute;
+  top: 122px;
+  left: -46px;
+  background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
+  width: 23px;
+  height: 36px;
+  padding: 36px 11px;
+  cursor: pointer;
+  div {
+    background-image: url(../../../../public/image/mainPage/carousel/arrows.png);
+    width: 23px;
+    height: 36px;
+    background-position-x: 23px;
+  }
+  &:hover {
+    background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
+  }
+}
+
+.arrowRight {
+  position: absolute;
+  top: 122px;
+  right: -46px;
+  background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
+  width: 23px;
+  height: 36px;
+  padding: 36px 11px;
+  cursor: pointer;
+  div {
+    background-image: url(../../../../public/image/mainPage/carousel/arrows.png);
+    width: 23px;
+    height: 36px;
+  }
+  &:hover {
+    background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
   }
 }
