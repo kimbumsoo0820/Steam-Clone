@@ -4,8 +4,9 @@
     "module": "commonjs",
     "rootDir": "src",
     "outDir": "dist",
+    
     "esModuleInterop": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "strictNullChecks": false,
     "jsx": "react",
     "sourceMap": true,

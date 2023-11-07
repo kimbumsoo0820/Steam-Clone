@@ -15,10 +15,11 @@ interface InitialStateType {
 
 const initialState: any = {
     options : [],
-    sorts: []
+    sorts: [],
+    games: [],
 };
 
-const options = createSlice({
+ const options = createSlice({
   name: "options",
   initialState,
 
@@ -31,9 +32,13 @@ const options = createSlice({
     setSorts: (state, action)=> {
         console.log('action | sort : ',action.payload)
         state.sorts = action.payload
-    }
+    },
+    setGame: (state, action)=> {
+        console.log('action | game : ',action.payload)
+        state.games = action.payload
+    },
   },
 });
 
 export default options;
-export const { setOptions,setSorts } = options.actions;
+export const { setOptions,setSorts, setGame } = options.actions;
