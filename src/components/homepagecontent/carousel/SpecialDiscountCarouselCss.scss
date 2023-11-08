@@ -1,0 +1,68 @@
+:root {
+  --fontColorWhite : #fff;
+}
+.carousel {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+.carouselContent {
+  transition: padding 0.25s;
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+.carouselTitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--fontColorWhite);
+  margin: 0 0 10px;
+  letter-spacing: 0.03em;
+  font-weight: normal;
+  padding-top: 2px;
+}
+.carouselContainer {
+  position: relative;
+  .carouselItem {
+    clear: both;
+    height: 390px;
+  }
+  .carouselThumbs {
+    text-align: center;
+    min-height: 37px;
+  }
+}
+
+
+.arrowLeft, .arrowRight {
+  position: absolute;
+  top: 122px;
+  background: linear-gradient( to right, rgba( 0, 0, 0, 0.3) 5%,rgba( 0, 0, 0, 0) 95%);
+  width: 23px;
+  height: 36px;
+  padding: 36px 11px;
+  cursor: pointer;
+  div {
+    width: 23px;
+    height: 36px;
+  }
+  &:hover {
+    background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
+  }
+}
+
+.arrowLeft {
+  left: -46px;
+  div {
+    background-position-x: 23px;
+    background-image: url(../../../../public/image/mainPage/carousel/arrows.png);
+  }
+}
+.arrowRight {
+  right: -46px;
+  div {
+    background-image: url(../../../../public/image/mainPage/carousel/arrows.png);
+  }
+}

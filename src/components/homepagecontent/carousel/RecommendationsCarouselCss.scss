@@ -42,6 +42,9 @@ h2 {
   background-image: url(../../../../public/image/mainPage/carousel/background_carousel_1.jpg);
   background-repeat: no-repeat;
   background-position: right;
+  &:hover{
+    cursor: pointer;
+  }
   .itemMain {
     flex-shrink: 0;
     background-color: #000;
@@ -154,5 +157,82 @@ h2 {
   }
   &:hover {
     background: linear-gradient( to right, rgba( 171, 218, 244, 0.3) 5%,rgba( 171, 218, 244, 0) 95%);
+  }
+}
+
+.reason {
+  margin-top: 8px;
+  padding-left: 6px;
+  display: inline-block;
+  width: 298px;
+  .saleStaus{
+    font-size: 21px;
+    font-weight: 200;
+    min-height: auto;
+    color: #fff;
+    padding-right: 10px;
+    padding-top: 6px;
+    line-height: 18px;
+  }
+  .additional{
+    margin-top: 5px;
+    font-size: 14px;
+    div{
+      margin: 3px 0;
+      display: inline-block;
+      line-height: 19px;
+      padding: 0 7px;
+      background-color: rgba( 255, 255, 255, 0.2);
+      box-shadow: none;
+      margin-right: 2px;
+      border-radius: 2px;
+      cursor: pointer;
+      margin-bottom: 3px;
+      max-width: 200px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 11px;
+      color: #fff;
+    }
+  }
+}
+.discountBlock {
+  position: absolute;
+  bottom: 10px;
+  left: 632px;
+  display: block;
+  .discountPrice {
+    padding-left: 4px;
+    font-size: 11px;
+    line-height: 12px;
+    color: #fff;
+  }
+}
+.platform {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  opacity: 0.7;
+  .window {
+    background-image: url(https://store.akamai.steamstatic.com/public/images/v6/icon_platform_win.png?v=3);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+  }
+  .linux {
+    background-image: url(https://store.akamai.steamstatic.com/public/images/v6/icon_platform_linux.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+  }
+  .mac {
+    background-image: url(	https://store.akamai.steamstatic.com/public/images/v6/icon_platform_mac.png);
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
   }
 }

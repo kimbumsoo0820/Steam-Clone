@@ -2,8 +2,8 @@ import React, { useEffect, useLayoutEffect, useState } from 'react';
 import './HomePageCss.scss'
 import FullScreenBackground from '../../components/homepagecontent/homebackground/FullScreenBackground';
 import StoreNavbar from '../../components/homepagecontent/StoreNav/StoreNavbar';
-import BasicCarousel from '../../components/homepagecontent/carousel/BasicCarousel';
-
+import RecommendationsCarousel from '../../components/homepagecontent/carousel/RecommendationsCarousel';
+import SpecialDiscountCarousel from '../../components/homepagecontent/carousel/SpecialDiscountCarousel';
 
 export default function Home() {
    
@@ -14,7 +14,8 @@ export default function Home() {
         <StoreNavbar></StoreNavbar>
       </div>
       <div>
-        <BasicCarousel></BasicCarousel>
+        <RecommendationsCarousel></RecommendationsCarousel>
+        <SpecialDiscountCarousel title={'특별 할인'} name={'조세'}></SpecialDiscountCarousel>
       </div>
     </div>
   );
