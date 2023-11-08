@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "";
+const baseURL = "http://localhost:8000/";
 const apiKey = "8E2298DBF33572C28729FE909C4F7F77";
 
 function makeAxios(
@@ -74,10 +74,7 @@ const apiCaller = {
 const apiCallBox = {
   game: {
     async getGameData() {
-      return await apiCaller.call(
-        "GET",
-        "https://partner.steam-api.com/ISteamUserStats/GetSchemaForGame/v2/"
-      );
+      return await apiCaller.call("GET", "getUserData/v2");
     },
   },
 };
