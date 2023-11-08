@@ -1,21 +1,22 @@
 import React from "react";
 import {useState} from "react";
 import "./golbal_navbar.scss";
-
-
+import { useNavigate } from "react-router-dom";
 
 function Navbar() {
   let [isLogin, setLogin] = useState<Boolean>(false);
   let [userName, setUserName] = useState<String>('보쌈족발');
   let [isActive, setActive] = useState<String>("headerMenu_active");
-
-
+  const movePage = useNavigate();
+  function onClickLogo() {
+    movePage('/');
+  }
   return (
     <div className="navbar" >
       <div className="content">
         <div className="left_area">
           <div className="logo">
-            <div>
+            <div onClick={onClickLogo}>
               <img src={`${process.env.PUBLIC_URL}/image/header/header_logo.png`}/>
             </div>
           </div>

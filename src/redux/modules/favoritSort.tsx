@@ -17,6 +17,7 @@ const initialState: any = {
     options : [],
     sorts: [],
     games: [],
+    firstLoad: true,
 };
 
  const options = createSlice({
@@ -37,8 +38,12 @@ const initialState: any = {
         console.log('action | game : ',action.payload)
         state.games = action.payload
     },
+    setFirst : (state, action)=> {
+        console.log('action | firstLoad : ',action.payload)
+        state.firstLoad = action.payload
+    },
   },
 });
 
 export default options;
-export const { setOptions,setSorts, setGame } = options.actions;
+export const { setOptions,setSorts, setGame, setFirst } = options.actions;

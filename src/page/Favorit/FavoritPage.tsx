@@ -11,7 +11,7 @@ import games from './CardData.json'
 
 
 
-import { setOptions, setSorts, setGame } from '../../redux/modules/favoritSort';
+import { setOptions, setSorts, setGame, setFirst } from '../../redux/modules/favoritSort';
 import { useDispatch, useSelector } from 'react-redux'
 import { RootState, AppDispatch } from '../../redux'
 import FavoritCardMyRank from '../../components/favorit/FavoritCardMyRank';
@@ -19,16 +19,16 @@ import FavoritCardMyRank from '../../components/favorit/FavoritCardMyRank';
 
 
 
-function GetGameData() {
-    let dispatch = useDispatch<AppDispatch>();
+// function GetGameData() {
+//     let dispatch = useDispatch<AppDispatch>();
 
-    dispatch(setGame(games))
+//     dispatch(setGame(games))
 
-    const gameList = useSelector((state: RootState) => state.favoritSort);
-    console.log('GetGameData', gameList.games)
+//     const gameList = useSelector((state: RootState) => state.favoritSort);
+//     console.log('GetGameData', gameList.games)
 
-    return gameList.games
-}
+//     return gameList.games
+// }
 
 
 export default function Home() {
@@ -37,14 +37,26 @@ export default function Home() {
     let [userName, setuserName] = useState<string>('삼겹살에 소주')
     let [optionStatus, setOptionStatus] = useState<boolean>(false)
     let [sortStatus, setsortStatus] = useState<boolean>(false)
-
+    let [loading, setLoading] = useState<boolean>(false)
+    let [gameData, setGameData] = useState<any>([])
+    
+    const gameList = useSelector((state: RootState) => state.favoritSort);
+    const firstLoad = useSelector((state: RootState) => state.favoritSort.firstLoad);
 
     useEffect(() => {
-
-        
+        if(firstLoad) {
+            dispatch(setGame(games))
+            dispatch(setFirst(false))
+        }
         dispatch(setOptions(OptionSortSets))
         dispatch(setSorts(SortSets))
     }, [])
+
+    useEffect(()=> {
+        setLoading(true)
+        console.log('부모 gameData : ',gameList.games)
+        setGameData(gameList.games)
+    },[gameList.games])
 
     function changeOptionStatus() {
         setsortStatus(false)
@@ -94,14 +106,18 @@ export default function Home() {
                                 </div>
                             }
                             {sortStatus &&
-                                <div className=''>
+                                <div className='sortWrap'>
                                     <SortSettingBox />
                                 </div>
                             }
                         </div>
 
                         <div className='seperator'></div>
-                        <FavoritCardMyRank myGame={GetGameData()} />
+                        {loading &&
+                            <>
+                                <FavoritCardMyRank myGame={gameData} />
+                            </>
+                        }
                     </div>
                 </div>
             </div>
