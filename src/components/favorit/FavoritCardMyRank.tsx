@@ -1,19 +1,17 @@
-import React, { useEffect,useState } from "react";
+import React, { useEffect,useState, useMemo } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import styled from 'styled-components';
 
 import { useDispatch, useSelector } from 'react-redux'
 import {RootState, AppDispatch} from '../../redux'
 import {setOptions, setSorts, setGame }from '../../redux/modules/favoritSort';
-interface OSARR {
-  
-}
+
 
 interface ItemType {
-  id: string;
-  name: string;
-  price: number;
-  evaluation : string;
+  id: string,
+  name: string,
+  price: number,
+  evaluation : string,
   release : string,
   favoriteDate : string,
   image : string,
@@ -68,10 +66,9 @@ function SetImage(osType :any) {
 function App(props:any) {
   let dispatch = useDispatch<AppDispatch>();
   const [items, setItems] = useState<ItemType[]>(props.myGame);
-console.log('자식컴포넌트 props',props)
-
+  const [propsObserver,setPropsObserver] = useState<any>(props.myGame)
+  
  
-
   const onDragEnd = (result: any) => {
     if (!result.destination) {
       return; // 드롭 대상이 없는 경우 아무 작업도 수행하지 않음
