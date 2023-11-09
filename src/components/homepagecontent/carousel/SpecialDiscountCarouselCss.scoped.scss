@@ -1,5 +1,5 @@
 
-:root {
+.carousel {
   --fontColorWhite : #fff;
 }
 .carousel {
@@ -33,6 +33,7 @@
   .carouselThumbs {
     text-align: center;
     min-height: 37px;
+    padding-bottom: 4px;
   }
 }
 

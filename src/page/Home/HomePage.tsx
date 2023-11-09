@@ -3,7 +3,8 @@ import './HomePageCss.scss'
 import FullScreenBackground from '../../components/homepagecontent/homebackground/FullScreenBackground';
 import StoreNavbar from '../../components/homepagecontent/StoreNav/StoreNavbar';
 import RecommendationsCarousel from '../../components/homepagecontent/carousel/RecommendationsCarousel';
-import SpecialDiscountCarousel from '../../components/homepagecontent/carousel/SpecialDiscountCarousel';
+import SpecialDiscountCarousel from '../../components/homepagecontent/carousel/SpecialDiscountCarousel'
+
 
 export default function Home() {
    

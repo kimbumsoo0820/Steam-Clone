@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import './SpecialDiscountCarouselCss.scss';
+import './SpecialDiscountCarouselCss.scoped.scss';
 
 
 export default function SpecialDiscountCarousel({title, name}) {
