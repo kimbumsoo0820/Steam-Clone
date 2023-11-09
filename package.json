@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^7.1.0",
     "@reduxjs/toolkit": "^1.9.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -13,6 +14,8 @@
     "@types/react-dom": "^18.2.14",
     "array-move": "^4.0.0",
     "axios": "^1.6.0",
+    "craco-alias": "^3.0.1",
+    "craco-plugin-scoped-css": "^1.1.1",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-beautiful-dnd": "^13.1.1",
@@ -26,9 +29,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "craco start",
+    "build": "craco bulid",
+    "test": "craco test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -50,6 +53,8 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^20.8.10"
+    "@types/node": "^20.8.10",
+    "babel-plugin-react-scoped-css": "^1.1.1",
+    "scoped-css-loader": "^1.0.0"
   }
 }
