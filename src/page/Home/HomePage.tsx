@@ -3,7 +3,8 @@ import './HomePageCss.scss'
 import FullScreenBackground from '../../components/homepagecontent/homebackground/FullScreenBackground';
 import StoreNavbar from '../../components/homepagecontent/StoreNav/StoreNavbar';
 import RecommendationsCarousel from '../../components/homepagecontent/carousel/RecommendationsCarousel';
-import SpecialDiscountCarousel from '../../components/homepagecontent/carousel/SpecialDiscountCarousel';
+import CarouselBase from '../../components/homepagecontent/carousel/CarouselBase'
+import SpDiscountCarousel from '../../components/homepagecontent/carousel/SpDiscountCarouse';
 
 export default function Home() {
    
@@ -15,8 +16,14 @@ export default function Home() {
       </div>
       <div>
         <RecommendationsCarousel></RecommendationsCarousel>
-        <SpecialDiscountCarousel title={'특별 할인'} name={'조세'}></SpecialDiscountCarousel>
+        <CarouselBase title={'특별 할인'} SpdiscountCarousel={Spc()}></CarouselBase>
       </div>
     </div>
   );
+}
+
+const Spc = () => {
+  return (
+    <SpDiscountCarousel></SpDiscountCarousel>
+  )
 }

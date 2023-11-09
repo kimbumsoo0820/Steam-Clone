@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import '../homebackground/FullScreenBackgroundCss.scss';
+import '../homebackground/FullScreenBackgroundCss.scoped.scss';
 
 export default function FullScreenBackground() {
 

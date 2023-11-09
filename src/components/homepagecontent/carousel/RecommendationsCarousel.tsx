@@ -1,5 +1,5 @@
 import React, {useState, ReactElement, useEffect, Dispatch, MouseEventHandler} from "react";
-import './RecommendationsCarouselCss.scss';
+import './RecommendationsCarouselCss.scoped.scss';
 import { url } from "inspector";
 import axios from "axios";
 
