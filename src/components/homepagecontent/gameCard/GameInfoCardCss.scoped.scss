@@ -2,18 +2,20 @@
 .bigCardContainer {
   position: relative;
   height: 390px;
+  width: 306px;
   margin-right: 11px;
   box-shadow: 0 0 5px black;
   background-image: url(../../../../public/image/mainPage/carousel/gameinfocard_background.jpg);
-  
 }
 .cardImg {
   padding-left: 0px;
   padding-top: 0px;
-  width: 360px;
-  overflow: hidden;
+  // width: 306px;
   img {
     border: none;
+    width: 100%;
+    // object-fit: cover;
+    overflow: hidden;
   }
   &:hover {
     cursor: pointer;
@@ -29,11 +31,10 @@
   font-size: 12px;
   position: absolute;
   bottom: 0;
-  width: 274px;
+  width: 275px;
   &:hover {
     cursor: pointer;
   }
-  // background: url();
   h2 {
     font-size: 14px;
     text-transform: uppercase;
@@ -96,5 +97,12 @@
     line-height: 16px;
     font-size: 15px;
   }
+}
+
+.smallCardContainer {
+  height: 186px;
+  width: 306px;
+  margin: 0 0 15px 0;
+  outline: red dashed 1px;
 }
 

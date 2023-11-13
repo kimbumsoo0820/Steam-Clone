@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import counterSlice from "./modules/game";
 import options from "./modules/favoritSort"
+import gameCardinfo from "./modules/gameCardInfo";
 
 const store = configureStore({
     reducer: {
       // game:counterSlice.reducer,
       favoritSort: options.reducer,
+      GameCardInfo : gameCardinfo.reducer,
     },
   });
   

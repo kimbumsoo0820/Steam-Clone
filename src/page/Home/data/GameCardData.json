@@ -1,0 +1,20 @@
+[
+  {
+    "id"    : "1",
+    "name"  : "TREPANG 2",
+    "price" : "34800",
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/bbd807d89394381b71ea5f31/spotlight_image_english.jpg?t=1699476201"
+  },
+  {
+    "id"    : "2",
+    "name"  : "Stranded : Alien Dawn",
+    "price" : "37500",
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/c3095cfc75b03ad7d2211de1/spotlight_image_english.jpg?t=1698969344"
+  },
+  {
+    "id"    : "3",
+    "name"  : "Crusader Kings III",
+    "price" : "52000",
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/79c20a69cc3f88685f33b900/spotlight_image_english.jpg?t=1698787447"
+  }
+]

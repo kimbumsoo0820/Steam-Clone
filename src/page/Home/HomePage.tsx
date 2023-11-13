@@ -5,6 +5,7 @@ import StoreNavbar from '../../components/homepagecontent/StoreNav/StoreNavbar';
 import RecommendationsCarousel from '../../components/homepagecontent/carousel/RecommendationsCarousel';
 import CarouselBase from '../../components/homepagecontent/carousel/CarouselBase'
 import SpDiscountCarousel from '../../components/homepagecontent/carousel/SpDiscountCarouse';
+// import SpDiscountCarousel from '@components/';
 
 export default function Home() {
    
@@ -16,7 +17,7 @@ export default function Home() {
       </div>
       <div>
         <RecommendationsCarousel></RecommendationsCarousel>
-        <CarouselBase title={'특별 할인'} SpdiscountCarousel={Spc()}></CarouselBase>
+        <CarouselBase title={'특별 할인'} CarouselContent={Spc()}></CarouselBase>
       </div>
     </div>
   );
