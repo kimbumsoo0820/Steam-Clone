@@ -1,0 +1,82 @@
+.smallGameCardContainer{
+  background: linear-gradient( to bottom, #ffffff 5%, #abdaf4 95%);
+  width: 306px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  box-shadow: 0 0 5px black;
+}
+.cardImg {
+  padding-top: 0;
+  padding-left: 0;
+  overflow: hidden;
+  img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    vertical-align: top;
+    border: none;
+  }
+}
+.saleInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.dailyDeal {
+  height: 44px;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 7px 10px 7px;
+  font-size: 14px;
+}
+
+.discountBlock {
+  display: flex;
+  margin: 0;
+  padding: 5px;
+  line-height: 17px;
+  min-height: 17px;
+  font-size: 12px;
+  .discountPercent {
+    line-height: 34px;
+    padding: 0 5px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #BEEE11;
+    background: #4c6b22;
+    display: inline-block;
+  }
+}
+
+.discountPrice {
+  line-height: 13px;
+  padding: 0 8px 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(20, 31, 44, 0.8);
+  .discountOriginalPrice {
+    position: relative;
+    width: fit-content;
+    color: #738895;
+    font-size: 11px;
+    line-height: 12px;
+    &::before {
+      content: '';
+      left: 0px;
+      right: 0px;
+      position: absolute;
+      top: 43%;
+      border-bottom: 1.5px solid #738895;
+      transform: skewY(-8deg);
+      box-shadow: 0 0 2px black;
+    }
+  }
+  .discountFinalPrice {
+    color: #BEEE11;
+    line-height: 16px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,161 @@
+[
+  {
+    "id" : 1,
+    "name" : "The Riftbreaker",
+    "release date" : "2021년 10월 14일",
+    "price" : 32000,
+    "discount" : -40,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/780310/header.jpg?t=1695898750",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ],
+    "userTag" : ["", ""]
+  },
+  {
+    "id" : 2,
+    "name" : "OXTO",
+    "release date" : "2023년 4월 20일",
+    "price" : 15500,
+    "discount" : -40,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1608640/header.jpg?t=1699876028",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ],
+    "userTag" : ["", ""]
+  },
+  {
+    "id" : 3,
+    "name" : "SatisFactory",
+    "release date" : "2020년 6월 9일",
+    "price" : 31000,
+    "discount" : -45,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/526870/header.jpg?t=1686669213",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ],
+    "userTag" : ["", ""]
+  },
+  {
+    "id" : 4,
+    "name" : "OverCoooked! 2",
+    "release date" : "2018년 8월 8일",
+    "price" : 26000,
+    "discount" : -75,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/728880/header.jpg?t=1670442579",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 5,
+    "name" : "DeathLoop",
+    "release date" : "2021년 9월 14일",
+    "price" : 67000,
+    "discount" : -80,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1252330/header.jpg?t=1685023314",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 6,
+    "name" : "Far cry 5",
+    "release date" : "2018년 3월 27일",
+    "price" : 65000,
+    "discount" : -85,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/552520/header.jpg?t=1694554810",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 7,
+    "name" : "Watch Dogs 2",
+    "release date" : "2016년 11월 28일",
+    "price" : 65000,
+    "discount" : -85,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/447040/header.jpg?t=1692817739",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 8,
+    "name" : "The Riftbreaker",
+    "release date" : "2021년 10월 14일",
+    "price" : 32000,
+    "discount" : -50,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/780310/header.jpg?t=1695898750",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 9,
+    "name" : "Phoenix Wright: Ace Attorney Trilogy",
+    "release date" : "2019년 4월 10일",
+    "price" : 30000,
+    "discount" : -50,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/787480/header.jpg?t=1669873859",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 10,
+    "name" : "Dying Light Enhanced Edition",
+    "release date" : "2016년 4월 22일",
+    "price" : 32000,
+    "discount" : -80,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/subs/88801/header_ratio.jpg?t=1651792054",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 11,
+    "name" : "타이니 티나의 원더랜드",
+    "release date" : "2022년 6월 24일",
+    "price" : 65000,
+    "discount" : -75,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1286680/header.jpg?t=1682006912",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  },
+  {
+    "id" : 12,
+    "name" : "鬼谷八荒 Tale of Immortal",
+    "release date" : "2023년 5월 26일",
+    "price" : 25000,
+    "discount" : -25,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1468810/header.jpg?t=1689733570",
+    "screenShot" : 
+    [
+      "", 
+      ""
+    ]
+  }
+]

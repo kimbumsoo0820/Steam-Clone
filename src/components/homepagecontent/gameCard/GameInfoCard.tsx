@@ -1,13 +1,10 @@
 import React, {useState} from 'react'
 import './GameInfoCardCss.scoped.scss'
 
-export default function GameInfoCard({gameData, discount, isBig}) {
+export default function GameInfoCard({gameData}) {
 
   return (
-    <div>
-      {
-        isBig === true ?
-        <div className='bigCardContainer'>
+    <div className='bigCardContainer'>
         <div className="cardImg">
           <img src={gameData.image} alt="" />
         </div>
@@ -18,20 +15,14 @@ export default function GameInfoCard({gameData, discount, isBig}) {
           </div>
           <div className='discountArea'>
             <div className='discountBlock'>
-              <div className="discountPercent">{discount}%</div>
+              <div className="discountPercent">{gameData.discount}%</div>
               <div className="discountPrice">
                 <div className="discountOriginalPrice">₩ {[gameData.price].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
-                <div className="discountFinalPrice">₩ {[gameData.price - ((discount*0.01)*(-1)*(gameData.price))].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
+                <div className="discountFinalPrice">₩ {[gameData.price - ((gameData.discount*0.01)*(-1)*(gameData.price))].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
               </div>
             </div>
           </div>
         </div>
         </div>
-        :
-        <div className='smallCardContainer'>
-
-        </div>
-      }
-    </div>
   )
 }

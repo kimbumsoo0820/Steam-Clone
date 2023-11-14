@@ -34,6 +34,22 @@
     text-align: center;
     min-height: 37px;
     padding-bottom: 4px;
+    div {
+      display: inline-block;
+      margin: 12px 2px;
+      width: 15px;
+      height: 9px;
+      border-radius: 2px;
+      transition: background-color 0.2s;
+      background-color: hsla(202, 60%, 100%, 0.2);
+      cursor: pointer;
+      &:hover{
+        background-color: hsla(202,60%,100%,0.3);
+      }
+    }
+    .focus {
+      background-color : hsla(202,60%,100%,0.4);
+    }
   }
 }
 
