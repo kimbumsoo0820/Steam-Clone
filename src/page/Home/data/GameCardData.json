@@ -3,18 +3,42 @@
     "id"    : "1",
     "name"  : "TREPANG 2",
     "price" : "34800",
-    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/bbd807d89394381b71ea5f31/spotlight_image_english.jpg?t=1699476201"
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/bbd807d89394381b71ea5f31/spotlight_image_english.jpg?t=1699476201",
+    "discount" : -33
   },
   {
     "id"    : "2",
     "name"  : "Stranded : Alien Dawn",
     "price" : "37500",
-    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/c3095cfc75b03ad7d2211de1/spotlight_image_english.jpg?t=1698969344"
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/c3095cfc75b03ad7d2211de1/spotlight_image_english.jpg?t=1698969344",
+    "discount" : -30
   },
   {
     "id"    : "3",
     "name"  : "Crusader Kings III",
     "price" : "52000",
-    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/79c20a69cc3f88685f33b900/spotlight_image_english.jpg?t=1698787447"
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/79c20a69cc3f88685f33b900/spotlight_image_english.jpg?t=1698787447",
+    "discount" : -50
+  },
+  {
+    "id"    : "4",
+    "name"  : "라이자의 아틀리에3 ~종극의 연금술사와 비밀의 열쇠~",
+    "price" : "69800",
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/dd754a012756c3b579ac4410/spotlight_image_koreana.jpg?t=1699663927",
+    "discount" : -30
+  },
+  {
+    "id"    : "5",
+    "name"  : "IXION",
+    "price" : "37500",
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/b521aecba9f7b49ac3ef60a1/spotlight_image_english.jpg?t=1699032468",
+    "discount" : -42
+  },
+  {
+    "id"    : "6",
+    "name"  : "Age of Empires IV: Anniversary Edition",
+    "price" : "39900",
+    "image" : "https://cdn.akamai.steamstatic.com/steam/spotlights/8b16068c5de0a55cfd6be652/spotlight_image_english.jpg?t=1699472585",
+    "discount" : -50
   }
 ]

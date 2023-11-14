@@ -17,14 +17,9 @@ export default function Home() {
       </div>
       <div>
         <RecommendationsCarousel></RecommendationsCarousel>
-        <CarouselBase title={'특별 할인'} CarouselContent={Spc()}></CarouselBase>
+        <SpDiscountCarousel></SpDiscountCarousel>
       </div>
     </div>
   );
 }
 
-const Spc = () => {
-  return (
-    <SpDiscountCarousel></SpDiscountCarousel>
-  )
-}
