@@ -31,7 +31,7 @@
   font-size: 12px;
   position: absolute;
   bottom: 0;
-  width: 275px;
+  width: 270px;
   &:hover {
     cursor: pointer;
   }
@@ -99,4 +99,57 @@
   }
 }
 
+.gameHoverInfo {
+  visibility: hidden;
+  position: absolute;
+  width: 300px;
+  background-color: #DCDEDF;
+  top: 0;
+  left: 306px;
+  z-index: 3;
+}
 
+.infoContainer {
+  padding: 10px 15px 10px 15px;
+  .gametitle {
+    font-size: 16px;
+  }
+  .releaseDate {
+    font-size: 9px;
+  }
+  .screenShot {
+    margin-top: 5px;
+    width: 270px;
+    height: 180px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .userEvaluation {
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px;
+    width: 260px;
+    height: 30px;
+    background-color: #67707B;
+    color: #DCDEDF;
+    font-size: 10px;
+    border-radius: 2px;
+  }
+  .userTag {
+    margin-top: 5px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  .userTagBlock {
+    display: flex;
+    font-size: 10px;
+    color: #DCDEDF;
+    div {
+      padding: 2px;
+      margin-right: 3px;
+      background-color: #8B929A;
+      border-radius: 2px;
+    }
+  }
+}
