@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {ReactElement, useState} from "react";
 import './SpDiscountCarouseCss.scoped.scss'
 import GameInfoCard from "../gameCard/GameInfoCard";
 import SmallGameCard from "../gameCard/SmallGameCard";
@@ -41,8 +41,16 @@ const SpecialDiscountContainer = (pageCount :number, focusPage : number) => {
           </div>
         </>:
         <>
-          <GameInfoCard gameData={gameData.gameData[focusPage*2]}></GameInfoCard>
-          <GameInfoCard gameData={gameData.gameData[focusPage*2+1]}></GameInfoCard>
+          {
+            gameData.gameData.map(function(data, index){
+              if (focusPage*2 === index || focusPage*2+1 === index) {
+                console.log(index);
+                return(
+                  <GameInfoCard gameData={data} index={index}></GameInfoCard>
+                )
+              }
+            })
+          }
           <div>
             <SmallGameCard gameData={GameSmallCardData[focusPage*2]}></SmallGameCard>
             <SmallGameCard gameData={GameSmallCardData[focusPage*2+1]}></SmallGameCard>
