@@ -2,21 +2,52 @@ import React, {useEffect, useState} from 'react';
 import './CarouselBase.scoped.scss';
 
 
-export default function CarouselBase({title, SpdiscountCarousel}) {
+export default function CarouselBase({carouselType, CarouselContent, focusPage, setFocusPage}) {
+  const Thumbs = () => {
+    const newArr = [];
+    for(let i = 0; i <= carouselType.pageCount; i++) {
+      newArr.push(
+        <div key={i} className={focusPage === i ? 'focus' : ''}></div>
+      )
+    }
+    return newArr;
+  }
 
   return (
     <div className='carousel'>
       <div className='carouselContent'>
-        <h2 className='carouselTitle'>{title}</h2>
+        <h2 className='carouselTitle'>{carouselType.title}</h2>
         <div className='carouselContainer'>
           <div className="carouselItem">
-            {SpdiscountCarousel}
+            {CarouselContent}
           </div>
-          <div className="carouselThumbs"></div>
-          <div className="arrowLeft"><div></div></div>
-          <div className="arrowRight"><div></div></div>
+          <div className="carouselThumbs">
+            {
+              Thumbs()
+            }
+          </div>
+          <div className="arrowLeft" onClick={function(){
+            if (focusPage === 0) {
+              setFocusPage(carouselType.pageCount-1)
+            } else {
+              setFocusPage(focusPage-1);
+            }
+          }}>
+            <div></div>
+          </div>
+          <div className="arrowRight" onClick={function(){
+            if (focusPage === carouselType.pageCount) {
+              setFocusPage(0)
+            } else {
+              setFocusPage(focusPage+1);
+            }
+          }}>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
   )
 }
+
+

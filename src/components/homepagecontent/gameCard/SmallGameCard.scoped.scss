@@ -1,69 +1,52 @@
-
-.bigCardContainer {
-  position: relative;
-  height: 390px;
+.smallGameCardContainer{
+  background: linear-gradient( to bottom, #ffffff 5%, #abdaf4 95%);
   width: 306px;
-  margin-right: 11px;
+  margin-bottom: 15px;
+  margin-right: 10px;
   box-shadow: 0 0 5px black;
-  background-image: url(../../../../public/image/mainPage/carousel/gameinfocard_background.jpg);
+  position: relative;
 }
 .cardImg {
-  padding-left: 0px;
-  padding-top: 0px;
-  // width: 306px;
+  padding-top: 0;
+  padding-left: 0;
+  overflow: hidden;
   img {
-    border: none;
+    top: 0;
+    left: 0;
     width: 100%;
-    // object-fit: cover;
-    overflow: hidden;
-  }
-  &:hover {
-    cursor: pointer;
+    height: auto;
+    vertical-align: top;
+    border: none;
   }
 }
-.cardContent {
-  background-image: url(../../../../public/image/mainPage/carousel/gameinfocard_background.jpg);
-  margin: 0px;
-  min-height: 23px;
-  background-size: cover;
-  padding: 8px 16px 12px 16px;
-  color: #9099a1;
-  font-size: 12px;
-  position: absolute;
-  bottom: 0;
-  width: 270px;
-  &:hover {
-    cursor: pointer;
-  }
-  h2 {
-    font-size: 14px;
-    text-transform: uppercase;
-    color: #fff;
-    margin: 0 0 10px;
-    letter-spacing: 0.03em;
-    font-weight: normal;
-    padding-top: 2px;
-  }
-  .contentBody {
-    font-weight: 300;
-    color: #acdbf5;
-  }
+.saleInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.dailyDeal {
+  height: 44px;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 7px 10px 7px;
+  font-size: 14px;
 }
 
-.discountArea {
-  margin-top: 10px;
-  .discountBlock {
-    position: relative;
-    display: flex;
-    .discountPercent {
-      line-height: 34px;
-      padding: 0 5px;
-      font-size: 26px;
-      font-weight: 500;
-      color: #BEEE11;
-      background: #4c6b22;
-      display: inline-block;
-    }
+.discountBlock {
+  display: flex;
+  margin: 0;
+  padding: 5px;
+  line-height: 17px;
+  min-height: 17px;
+  font-size: 12px;
+  .discountPercent {
+    line-height: 34px;
+    padding: 0 5px;
+    font-size: 26px;
+    font-weight: 500;
+    color: #BEEE11;
+    background: #4c6b22;
+    display: inline-block;
   }
 }
 
@@ -74,7 +57,7 @@
   flex-direction: column;
   align-items: flex-end;
   justify-content: center;
-  background: #344654;
+  background: rgba(20, 31, 44, 0.8);
   .discountOriginalPrice {
     position: relative;
     width: fit-content;
@@ -105,9 +88,10 @@
   width: 300px;
   background-color: #DCDEDF;
   top: 0;
-  left: 306px;
+  left: 10;
   z-index: 3;
 }
+
 
 .infoContainer {
   padding: 10px 15px 10px 15px;

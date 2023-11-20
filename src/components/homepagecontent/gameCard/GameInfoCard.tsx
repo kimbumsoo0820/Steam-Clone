@@ -1,11 +1,25 @@
-import React, {useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import './GameInfoCardCss.scoped.scss'
 
-export default function GameInfoCard() {
-  return (  
-    <div className='bigcardContainer'>
+
+export default function GameInfoCard({gameData, index}) {
+  let [screenShotindex, setScreenShotIndex] = useState(0);
+  let [isHover, setIsHover] = useState(false);
+  useEffect(function(){
+    if (isHover) {
+      const timer = setTimeout(function(){
+        if (screenShotindex === gameData.screenShot.length-1) {
+          setScreenShotIndex(0);
+        } else {
+          setScreenShotIndex(screenShotindex+1);
+        }
+      }, 1000)
+    }
+  },)
+  return (
+    <div className='bigCardContainer' onMouseOver={()=>GameHover(gameData, index, setIsHover)} onMouseOut={()=>GameHoverOut(gameData, index, setIsHover)}>
       <div className="cardImg">
-        <img src="https://cdn.akamai.steamstatic.com/steam/spotlights/76207d4fb8f8531d01f2348f/spotlight_image_koreana.jpg?t=1698945244" alt="" />
+        <img src={gameData.image}/>
       </div>
       <div className="cardContent">
         <h2>주중 특가</h2>
@@ -14,14 +28,47 @@ export default function GameInfoCard() {
         </div>
         <div className='discountArea'>
           <div className='discountBlock'>
-            <div className="discountPercent">-30%</div>
+            <div className="discountPercent">{gameData.discount}%</div>
             <div className="discountPrice">
-              <div className="discountOriginalPrice">₩ 11,000</div>
-              <div className="discountFinalPrice">₩ 7,000</div>
+              <div className="discountOriginalPrice">₩ {[gameData.price].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
+              <div className="discountFinalPrice">₩ {[gameData.price - ((gameData.discount*0.01)*(-1)*(gameData.price))].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div key={gameData.id} className="gameHoverInfo">
+        <div className='infoContainer'>
+          <div className='gametitle'>{gameData.name}</div>
+          <div className='releaseDate'>출시 : {gameData.releasedate}</div>
+          <div className='screenShot'>
+            <img src={gameData.screenShot[screenShotindex]} alt="" />
+          </div>
+          <div className='userEvaluation'>전반적 사용자 평가 :
+            <div><span style={{color:'#66C0F4'}}>{gameData.userEvaluation.evaluation}</span>{` (평가 ${[gameData.userEvaluation.count].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}개)`}</div>
+          </div>
+          <div className='userTag'>사용자 태그 :</div>
+          <div className='userTagBlock'>
+            {
+              gameData.userTag.map(function(data, index){
+                return(
+                  <div>{data}</div>
+                )
+              })
+            }
           </div>
         </div>
       </div>
     </div>
   )
+}
+
+function GameHover(gameData, index, setIsHover) {
+  let gameHoverInfo : HTMLElement = document.querySelectorAll('.gameHoverInfo')[index%2] as HTMLElement;
+  gameHoverInfo.style.visibility ="visible";
+  setIsHover(true);
+}
+function GameHoverOut(gameData, index, setIsHover) {
+  let gameHoverInfo : HTMLElement = document.querySelectorAll('.gameHoverInfo')[index%2] as HTMLElement;
+  gameHoverInfo.style.visibility ="hidden";
+  setIsHover(false);
 }
