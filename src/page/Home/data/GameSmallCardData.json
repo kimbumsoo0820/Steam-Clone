@@ -8,24 +8,30 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/780310/header.jpg?t=1695898750",
     "screenShot" : 
     [
-      "", 
-      ""
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_68c0b28b27c2bb080ed08d0f20b262ad5cfa5b44.600x338.jpg?t=1695898750", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_6a6c8c49f3968fae8094d05730a6983f87ae37ef.600x338.jpg?t=1695898750",
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_1a50128378a686ddb2b39e034c9beb37440eb9ce.600x338.jpg?t=1695898750",
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_8d28a135fd0390cbf5918f52bf76d6b91b389282.600x338.jpg?t=1695898750"
     ],
-    "userTag" : ["", ""]
+    "userTag" : ["기지건설", "타워 디펜스", "생존", "전략", "크래프팅"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 13926}
   },
   {
     "id" : 2,
-    "name" : "OXTO",
+    "name" : "OTXO",
     "release date" : "2023년 4월 20일",
     "price" : 15500,
     "discount" : -40,
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1608640/header.jpg?t=1699876028",
     "screenShot" : 
     [
-      "", 
-      ""
+      "https://cdn.akamai.steamstatic.com/steam/apps/1608640/ss_3241897a8f81cd66596a212abaf654ea03e26184.600x338.jpg?t=1700152699", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/1608640/ss_3378013fa2c6ddd74ccfbe2aa14a43afa62a12f4.600x338.jpg?t=1700152699",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1608640/ss_de514e261c0a3ded9b13edcdfb8c29fbbbde0aed.600x338.jpg?t=1700152699",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1608640/ss_2410a255967ea001b8243dcbebfc7885b4438c11.600x338.jpg?t=1700152699"
     ],
-    "userTag" : ["", ""]
+    "userTag" : ["액션 로그라이크", "탑다운 슈팅", "폭력", "불렛타임"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 1113}
   },
   {
     "id" : 3,
@@ -36,23 +42,30 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/526870/header.jpg?t=1686669213",
     "screenShot" : 
     [
-      "", 
-      ""
+      "https://cdn.akamai.steamstatic.com/steam/apps/526870/ss_9083ccf8fbb22c4068a6e233e3de343f815f9dc1.600x338.jpg?t=1699977810", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/526870/ss_324fb3d8774ef3eadba136d4eae8c01cbdf14a83.600x338.jpg?t=1699977810",
+      "https://cdn.akamai.steamstatic.com/steam/apps/526870/ss_dcb79211f2f9bac1e6a2d85aad132fc3ae909001.600x338.jpg?t=1699977810",
+      "https://cdn.akamai.steamstatic.com/steam/apps/526870/ss_1f58d45a69e37ae6b00074a9dcb2a00e3519917d.600x338.jpg?t=1699977810"
     ],
-    "userTag" : ["", ""]
+    "userTag" : ["기지 건설", "자동화", "오픈월드", "멀티플레이어"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 123024}
   },
   {
     "id" : 4,
-    "name" : "OverCoooked! 2",
+    "name" : "OverCooked! 2",
     "release date" : "2018년 8월 8일",
     "price" : 26000,
     "discount" : -75,
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/728880/header.jpg?t=1670442579",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/728880/ss_2f84a12e1fe82cca37848bf29d4b8b16e83db03b.600x338.jpg?t=1670442579", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/728880/ss_652d62549a8a5fdf4f0061e20b16a3cd9a19dc45.600x338.jpg?t=1670442579",
+      "https://cdn.akamai.steamstatic.com/steam/apps/728880/ss_773917e64738bc879685cff49b8ac6eb4f15ab93.600x338.jpg?t=1670442579",
+      "https://cdn.akamai.steamstatic.com/steam/apps/728880/ss_3728a182f291231c4713860611dd9292b8b4fd05.600x338.jpg?t=1670442579"
+    ],
+    "userTag" : ["멀티플레이어", "온라인 협동", "로컬 협동", "협동"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 38965}
   },
   {
     "id" : 5,
@@ -63,9 +76,13 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1252330/header.jpg?t=1685023314",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/1252330/ss_26bfb9a442924c466a844086646727f5d6191810.600x338.jpg?t=1685023314", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/1252330/ss_b05a1ef5c5a43860f7728637c7047695d0d52236.600x338.jpg?t=1685023314",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1252330/ss_b18d58a9b6a161bf3b253044b9b3edb91802be0c.600x338.jpg?t=1685023314",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1252330/ss_83ff6db592bee2d30854a067cdfe5e4969aebd56.600x338.jpg?t=1685023314"
+    ],
+    "userTag" : ["1인칭 슈팅", "액션", "잠입", "암살", "슈팅"],
+    "userEvaluation" : {"evaluation" : "대체로 긍정적", "count" : 17123}
   },
   {
     "id" : 6,
@@ -76,9 +93,13 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/552520/header.jpg?t=1694554810",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/552520/ss_a52c732d62a26d20bcfb0525929178749392f4fc.600x338.jpg?t=1694554810", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/552520/ss_64406d71653c589377e8c589ece9e3941b6fff50.600x338.jpg?t=1694554810",
+      "https://cdn.akamai.steamstatic.com/steam/apps/552520/ss_5b5701cb9cc39b661d6a2903a97e0bb75eb2a6c6.600x338.jpg?t=1694554810",
+      "https://cdn.akamai.steamstatic.com/steam/apps/552520/ss_60894d685a0f3488ceaf0592625fc904aa2bfeb1.600x338.jpg?t=1694554810"
+    ],
+    "userTag" : ["1인칭 슈팅", "액션 어드벤쳐", "오픈 월드", "3D", "슈팅"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 132311}
   },
   {
     "id" : 7,
@@ -89,9 +110,13 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/447040/header.jpg?t=1692817739",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/447040/ss_8071f719fea2d45baa805449ec550395db700118.600x338.jpg?t=1692817739", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/447040/ss_b93d600b2a0372d6b5a5d191b46654ba489819d1.600x338.jpg?t=1692817739",
+      "https://cdn.akamai.steamstatic.com/steam/apps/447040/ss_3466ea1a9e73594961b9f73fd560f379f7f49870.600x338.jpg?t=1692817739",
+      "https://cdn.akamai.steamstatic.com/steam/apps/447040/ss_a3787b7673e663ef78a59397eaf6b50a61ef70ff.600x338.jpg?t=1692817739"
+    ],
+    "userTag" : ["오픈 월드", "해킹", "일루미나티", "파쿠르", "액션"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 62095}
   },
   {
     "id" : 8,
@@ -102,22 +127,30 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/780310/header.jpg?t=1695898750",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_68c0b28b27c2bb080ed08d0f20b262ad5cfa5b44.600x338.jpg?t=1695898750", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_6a6c8c49f3968fae8094d05730a6983f87ae37ef.600x338.jpg?t=1695898750",
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_1a50128378a686ddb2b39e034c9beb37440eb9ce.600x338.jpg?t=1695898750",
+      "https://cdn.akamai.steamstatic.com/steam/apps/780310/ss_8d28a135fd0390cbf5918f52bf76d6b91b389282.600x338.jpg?t=1695898750"
+    ],
+    "userTag" : ["기지건설", "타워 디펜스", "생존", "전략", "크래프팅"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 13926}
   },
   {
     "id" : 9,
     "name" : "Phoenix Wright: Ace Attorney Trilogy",
     "release date" : "2019년 4월 10일",
-    "price" : 30000,
-    "discount" : -50,
+    "price" : 32000,
+    "discount" : -67,
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/787480/header.jpg?t=1669873859",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/787480/ss_b7e6e92dd87430750fb84ae3fede6630143f95ef.600x338.jpg?t=1669873859", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/787480/ss_ad8b9bd29d21b19735b272cba727dc35196edf82.600x338.jpg?t=1669873859",
+      "https://cdn.akamai.steamstatic.com/steam/apps/787480/ss_ea34a5a4aa366734fadfd6a3972d77d445b492b0.600x338.jpg?t=1669873859",
+      "https://cdn.akamai.steamstatic.com/steam/apps/787480/ss_9982567dc0b39bedd1f8c31ecc9762a87abc54a3.600x338.jpg?t=1669873859"
+    ],
+    "userTag" : ["수사관", "비주얼 노벨", "풍부한 스토리", "미스터리"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 19132}
   },
   {
     "id" : 10,
@@ -128,9 +161,13 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/subs/88801/header_ratio.jpg?t=1651792054",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/239140/ss_a3771358b8eb4ea4c8f99c5850711f55b87804de.600x338.jpg?t=1696608765", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/239140/ss_1f0dc94f46fa1a953827188188887f6a12911ec2.600x338.jpg?t=1696608765",
+      "https://cdn.akamai.steamstatic.com/steam/apps/239140/ss_37f8192f3bf85359ddee0b5c2e9a58eaaf6c4026.600x338.jpg?t=1696608765",
+      "https://cdn.akamai.steamstatic.com/steam/apps/239140/ss_ac414827362042b5f4a95ab90df508adc822ddc1.600x338.jpg?t=1696608765"
+    ],
+    "userTag" : ["좀비", "생존 공포", "온라인 협동", "오픈 월드"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 287676}
   },
   {
     "id" : 11,
@@ -141,21 +178,29 @@
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1286680/header.jpg?t=1682006912",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/1286680/ss_e7499467fb6dbff279fdffd96ec380b157c5791a.600x338.jpg?t=1682006912", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/1286680/ss_9eec41e5b6d47e4a63fb7f0a0eed4819baeee4f5.600x338.jpg?t=1682006912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1286680/ss_24bef9c08e3f51b99030dd7972312fc7628f29aa.600x338.jpg?t=1682006912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1286680/ss_ca4fd814a118de1f7cc0ce8c944e9885a58f20f2.600x338.jpg?t=1682006912"
+    ],
+    "userTag" : ["약탈", "어드벤쳐", "슈팅", "멀티플레이어"],
+    "userEvaluation" : {"evaluation" : "대체로 긍정적", "count" : 10131}
   },
   {
     "id" : 12,
-    "name" : "鬼谷八荒 Tale of Immortal",
-    "release date" : "2023년 5월 26일",
-    "price" : 25000,
-    "discount" : -25,
-    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1468810/header.jpg?t=1689733570",
+    "name" : "Lies of P",
+    "release date" : "2023년 9월 18일",
+    "price" : 64800,
+    "discount" : -20,
+    "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/1627720/header.jpg?t=1700117197",
     "screenShot" : 
     [
-      "", 
-      ""
-    ]
+      "https://cdn.akamai.steamstatic.com/steam/apps/1627720/ss_cef0c2964b82e2b80ab0756da08f61c27d9fa33c.600x338.jpg?t=1700117197", 
+      "https://cdn.akamai.steamstatic.com/steam/apps/1627720/ss_a5b14c097c179a3c9e773bdec4cb9073e9686566.600x338.jpg?t=1700117197",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1627720/ss_132a6579a7c2f3241e55ef9ce3eae798786168ad.600x338.jpg?t=1700117197",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1627720/ss_26772232e759f37d0841d054cf30604fe4bba434.600x338.jpg?t=1700117197"
+    ],
+    "userTag" : ["소울라이크", "액션", "탐험", "다크 판타지", "액션 RPG"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 12871}
   }
 ]

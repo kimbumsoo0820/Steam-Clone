@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import './GameInfoCardCss.scoped.scss'
-import { time } from 'console';
+
 
 export default function GameInfoCard({gameData, index}) {
   let [screenShotindex, setScreenShotIndex] = useState(0);
