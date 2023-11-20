@@ -88,8 +88,11 @@
   width: 300px;
   background-color: #DCDEDF;
   top: 0;
-  left: 10;
+  left: 310px;
   z-index: 3;
+  @media screen and (max-width : 1060px){
+    left: -306px ;
+  }
 }
 
 
