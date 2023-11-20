@@ -28,23 +28,22 @@ const SpecialDiscountContainer = (pageCount :number, focusPage : number) => {
         focusPage === pageCount ? 
         <>
           <div>
-            <SmallGameCard gameData={GameSmallCardData[6]}></SmallGameCard>
-            <SmallGameCard gameData={GameSmallCardData[7]}></SmallGameCard>
+            <SmallGameCard gameData={GameSmallCardData[6]} index={6}></SmallGameCard>
+            <SmallGameCard gameData={GameSmallCardData[7]} index={7}></SmallGameCard>
           </div>
-          <div>
+          {/* <div>
             <SmallGameCard gameData={GameSmallCardData[8]}></SmallGameCard>
             <SmallGameCard gameData={GameSmallCardData[9]}></SmallGameCard>
           </div>
           <div>
             <SmallGameCard gameData={GameSmallCardData[10]}></SmallGameCard>
             <SmallGameCard gameData={GameSmallCardData[11]}></SmallGameCard>
-          </div>
+          </div> */}
         </>:
         <>
           {
             gameData.gameData.map(function(data, index){
               if (focusPage*2 === index || focusPage*2+1 === index) {
-                console.log(index);
                 return(
                   <GameInfoCard gameData={data} index={index}></GameInfoCard>
                 )
@@ -52,8 +51,17 @@ const SpecialDiscountContainer = (pageCount :number, focusPage : number) => {
             })
           }
           <div>
-            <SmallGameCard gameData={GameSmallCardData[focusPage*2]}></SmallGameCard>
-            <SmallGameCard gameData={GameSmallCardData[focusPage*2+1]}></SmallGameCard>
+            {
+              GameSmallCardData.map(function(data, index){
+                if (focusPage*2 === index || focusPage*2+1 === index) {
+                  return(
+                    <SmallGameCard gameData={data} index={index}></SmallGameCard>
+                  )
+                }
+              })
+            }
+            {/* <SmallGameCard gameData={GameSmallCardData[focusPage*2]}></SmallGameCard>
+            <SmallGameCard gameData={GameSmallCardData[focusPage*2+1]}></SmallGameCard> */}
           </div>
         </>
       }

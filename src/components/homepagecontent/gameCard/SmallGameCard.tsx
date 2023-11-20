@@ -1,11 +1,27 @@
-import React from "react";
+import React, {LegacyRef, createRef, useEffect, useRef, useState} from "react";
 import './SmallGameCard.scoped.scss';
 
-export default function SmallGameCard({gameData}) {
+export default function SmallGameCard({gameData, index}) {
+  let [screenShotindex, setScreenShotIndex] = useState(0);
+  let [isHover, setIsHover] = useState(false);
+
+  useEffect(function(){
+    if (isHover) {
+      const timer = setTimeout(function(){
+        if (screenShotindex === gameData.screenShot.length-1) {
+          setScreenShotIndex(0);
+        } else {
+          setScreenShotIndex(screenShotindex+1);
+        }
+      }, 1000)
+    }
+  },)
+  const hoverInfoRef : LegacyRef<HTMLDivElement> = createRef();
+  
   return (
-    <div className="smallGameCardContainer">
+    <div className="smallGameCardContainer" onMouseOver={()=>GameHover(setIsHover, hoverInfoRef)} onMouseOut={()=>GameHoverOut(setIsHover, hoverInfoRef)}>
       <div className="cardImg">
-        <img src={gameData.mainImg} alt="" />
+        <img src={gameData.mainImg}/>
       </div>
       <div className="saleInfo">
         <div className="dailyDeal">
@@ -19,7 +35,37 @@ export default function SmallGameCard({gameData}) {
           </div>
         </div>
       </div>
-
+      <div className="gameHoverInfo" key={index} ref={hoverInfoRef}>
+        <div className='infoContainer'>
+          <div className='gametitle'>{gameData.name}</div>
+          <div className='releaseDate'>출시 : {gameData.releasedate}</div>
+          <div className='screenShot'>
+            <img src={gameData.screenShot[screenShotindex]} alt="" />
+          </div>
+          <div className='userEvaluation'>전반적 사용자 평가 :
+            <div><span style={{color:'#66C0F4'}}>{gameData.userEvaluation.evaluation}</span>{` (평가 ${[gameData.userEvaluation.count].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}개)`}</div>
+          </div>
+          <div className='userTag'>사용자 태그 :</div>
+          <div className='userTagBlock'>
+            {
+              gameData.userTag.map(function(data, index){
+                return(
+                  <div>{data}</div>
+                )
+              })
+            }
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
+function GameHover(setIsHover, ref) {
+  ref.current.style.visibility = 'visible';
+  setIsHover(true);
+}
+function GameHoverOut(setIsHover, ref) {
+  ref.current.style.visibility = 'hidden';
+  setIsHover(false);
+}
+
