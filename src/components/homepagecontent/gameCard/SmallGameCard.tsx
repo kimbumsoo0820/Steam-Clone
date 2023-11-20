@@ -62,10 +62,12 @@ export default function SmallGameCard({gameData, index}) {
 }
 function GameHover(setIsHover, ref) {
   ref.current.style.visibility = 'visible';
+  ref.current.style.opacity = 1;
   setIsHover(true);
 }
 function GameHoverOut(setIsHover, ref) {
   ref.current.style.visibility = 'hidden';
+  ref.current.style.opacity = 0;
   setIsHover(false);
 }
 

@@ -84,13 +84,15 @@
 
 .gameHoverInfo {
   visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
   position: absolute;
   width: 300px;
   background-color: #DCDEDF;
   top: 0;
   left: 310px;
   z-index: 3;
-  @media screen and (max-width : 1060px){
+  @media screen and (max-width : 1550px){
     left: -306px ;
   }
 }
