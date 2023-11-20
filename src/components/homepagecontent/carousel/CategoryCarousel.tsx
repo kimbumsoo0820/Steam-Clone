@@ -12,10 +12,9 @@ export default function CategoryCarousel() {
   }
   const [categoryCarouselType, setCategoryCarouselType] = useState<CarouselType>({
     title : '카테고리별로 살펴보기',
-    pageCount : 4
+    pageCount : CategoryData.length/4 - 1
   })
   let [focusePage, setFocusPage] = useState<number>(0);
-
    
   const CategoryCarouselContainer = () => {
     let startIndx, endIndex;
@@ -23,29 +22,28 @@ export default function CategoryCarousel() {
 
     if (focusePage === 0) {
       startIndx = currentIndex;
-      endIndex = currentIndex+4;
+      endIndex = currentIndex+categoryCarouselType.pageCount;
     } 
     else if(focusePage === 1) {
-      startIndx = currentIndex+4;
-      endIndex = currentIndex+8;
+      startIndx = currentIndex+categoryCarouselType.pageCount;
+      endIndex = currentIndex+(categoryCarouselType.pageCount*2);
     }
     else if(focusePage === 2) {
-      startIndx = currentIndex+8;
-      endIndex = currentIndex+12;
+      startIndx = currentIndex+(categoryCarouselType.pageCount*2);
+      endIndex = currentIndex+(categoryCarouselType.pageCount*3);
     }
     else if(focusePage === 3) {
-      startIndx = currentIndex+12;
-      endIndex = currentIndex+16;
+      startIndx = currentIndex+(categoryCarouselType.pageCount*3);
+      endIndex = currentIndex+(categoryCarouselType.pageCount*4);
     }
     else if(focusePage === 4) {
-      startIndx = currentIndex+16;
-      endIndex = currentIndex+20;
+      startIndx = currentIndex+(categoryCarouselType.pageCount*4);
+      endIndex = currentIndex+(categoryCarouselType.pageCount*5);
     }
     return (
       <div className="categoryCarouselContainer">
         {
           CategoryData.slice(startIndx, endIndex).map(function(data, index){
-            console.log(index);
             return(
               <CategoryCard data={data}></CategoryCard>
             )
@@ -69,5 +67,4 @@ export default function CategoryCarousel() {
   return(
     <CarouselBase focusPage={focusePage} setFocusPage={setFocusPage} carouselType={categoryCarouselType} CarouselContent={CategoryCarouselContainer()}></CarouselBase>
   )
-  
 }
