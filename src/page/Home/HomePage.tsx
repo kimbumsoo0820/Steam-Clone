@@ -6,7 +6,8 @@ import RecommendationsCarousel from '../../components/homepagecontent/carousel/R
 import CarouselBase from '../../components/homepagecontent/carousel/CarouselBase'
 import SpDiscountCarousel from '../../components/homepagecontent/carousel/SpDiscountCarouse';
 import CategoryCarousel from '../../components/homepagecontent/carousel/CategoryCarousel';
-// import SpDiscountCarousel from '@components/';
+
+import Tab from '../../components/homepagecontent/tabContents/Tab';
 
 export default function Home() {
    
@@ -20,6 +21,7 @@ export default function Home() {
         <RecommendationsCarousel></RecommendationsCarousel>
         <SpDiscountCarousel></SpDiscountCarousel>
         <CategoryCarousel></CategoryCarousel>
+        <Tab></Tab>
       </div>
     </div>
   );

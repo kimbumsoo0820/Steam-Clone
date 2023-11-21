@@ -2,7 +2,7 @@
   {
     "id" : 1,
     "name" : "The Riftbreaker",
-    "release date" : "2021년 10월 14일",
+    "releasedate" : "2021년 10월 14일",
     "price" : 32000,
     "discount" : -40,
     "mainImg" : "https://cdn.akamai.steamstatic.com/steam/apps/780310/header.jpg?t=1695898750",
