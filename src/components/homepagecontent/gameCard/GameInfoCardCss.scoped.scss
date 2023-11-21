@@ -101,6 +101,8 @@
 
 .gameHoverInfo {
   visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
   position: absolute;
   width: 300px;
   background-color: #DCDEDF;

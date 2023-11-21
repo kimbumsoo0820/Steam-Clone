@@ -1,0 +1,42 @@
+.carouselItem {
+  height: 300px;
+}
+.categoryCarouselContainer {
+  display: flex;
+}
+.contentArea {
+  margin-right: 8px;
+  width: 24%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  position: relative;
+  &:hover {
+    transform: scale(1.05);
+    transition: all .2s;
+  }
+  img {
+    width: 100%;
+    border: none;
+  }
+  .gradient {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
+  .label {
+    position: absolute;
+    bottom: 16px;
+    text-align: center;
+    width: 85%;
+    padding: 1em;
+    span {
+      font-size: 16px;
+      font-weight: bold;
+      letter-spacing: 0.1ch;
+      color: white;
+      text-shadow: 0 1px 3px rgba(0, 0, 0, 50%);
+      text-transform: uppercase;
+    }
+  }
+}

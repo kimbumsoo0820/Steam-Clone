@@ -1,0 +1,122 @@
+[
+  {
+    "id" : 1,
+    "name" : "비주얼 노벨",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/visual_novel?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(139,0,0) 100%"
+  },
+  {
+    "id" : 2,
+    "name" : "롤플레잉",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/rpg?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,0,139) 100%"
+  },
+  {
+    "id" : 3,
+    "name" : "레이싱",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/racing?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(184,134,11) 100%"
+  },
+  {
+    "id" : 4,
+    "name" : "캐주얼",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/casual?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,100,0) 100%"
+  },
+  {
+    "id" : 5,
+    "name" : "전략",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/strategy?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,139,139) 100%"
+  },
+  {
+    "id" : 6,
+    "name" : "DECK 완벽 호환",
+    "image" : "https://store.steampowered.com/categories/homepageimage/greatondeck?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(139,0,139) 100%"
+  },
+  {
+    "id" : 7,
+    "name" : "격투",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/fighting_martial_arts?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(233,140,0) 100%"
+  },
+  {
+    "id" : 8,
+    "name" : "시뮬레이션",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/simulation?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(139,0,0) 100%"
+  },
+  {
+    "id" : 9,
+    "name" : "액션",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/action?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,0,139) 100%"
+  },
+  {
+    "id" : 10,
+    "name" : "오픈 월드",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/exploration_open_world?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(184,134,11) 100%"
+  },
+  {
+    "id" : 11,
+    "name" : "협동",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/multiplayer_coop?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,100,0) 100%"
+  },
+  {
+    "id" : 12,
+    "name" : "공상과학 및 사이버펑크",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/science_fiction?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,139,139) 100%"
+  },
+  {
+    "id" : 13,
+    "name" : "모든 스포츠",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/sports?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(139,0,139) 100%"
+  },
+  {
+    "id" : 14,
+    "name" : "공포",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/horror?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(233,140,0) 100%"
+  },
+  {
+    "id" : 15,
+    "name" : "로그라이크",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/rogue_like_rogue_lite?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(139,0,0) 100%"
+  },
+  {
+    "id" : 16,
+    "name" : "어드벤처",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/adventure?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,0,139) 100%"
+  },
+  {
+    "id" : 17,
+    "name" : "무료 플레이 게임",
+    "image" : "https://store.steampowered.com/categories/homepageimage/freetoplay?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(184,134,11) 100%"
+  },
+  {
+    "id" : 18,
+    "name" : "도시 및 정착",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/strategy_cities_settlements?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,100,0) 100%"
+  },
+  {
+    "id" : 19,
+    "name" : "퍼즐",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/puzzle_matching/?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(0,139,139) 100%"
+  },
+  {
+    "id" : 20,
+    "name" : "생존",
+    "image" : "https://store.steampowered.com/categories/homepageimage/category/survival?cc=us&l=koreana",
+    "background" : "linear-gradient(rgba(0,0,0,0), rgb(139,0,139) 100%"
+  }
+]

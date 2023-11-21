@@ -7,7 +7,7 @@ export default function CarouselBase({carouselType, CarouselContent, focusPage, 
     const newArr = [];
     for(let i = 0; i <= carouselType.pageCount; i++) {
       newArr.push(
-        <div key={i} className={focusPage === i ? 'focus' : ''}></div>
+        <div key={i} className={focusPage === i ? 'focus' : ''} onClick={()=>{setFocusPage(i);}}></div>
       )
     }
     return newArr;

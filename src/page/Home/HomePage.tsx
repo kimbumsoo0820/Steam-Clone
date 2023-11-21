@@ -5,7 +5,9 @@ import StoreNavbar from '../../components/homepagecontent/StoreNav/StoreNavbar';
 import RecommendationsCarousel from '../../components/homepagecontent/carousel/RecommendationsCarousel';
 import CarouselBase from '../../components/homepagecontent/carousel/CarouselBase'
 import SpDiscountCarousel from '../../components/homepagecontent/carousel/SpDiscountCarouse';
-// import SpDiscountCarousel from '@components/';
+import CategoryCarousel from '../../components/homepagecontent/carousel/CategoryCarousel';
+
+import Tab from '../../components/homepagecontent/tabContents/Tab';
 
 export default function Home() {
    
@@ -18,6 +20,8 @@ export default function Home() {
       <div>
         <RecommendationsCarousel></RecommendationsCarousel>
         <SpDiscountCarousel></SpDiscountCarousel>
+        <CategoryCarousel></CategoryCarousel>
+        <Tab></Tab>
       </div>
     </div>
   );
