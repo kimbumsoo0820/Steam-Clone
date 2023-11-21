@@ -7,15 +7,14 @@
   padding-right: 2%;
   padding-bottom: 20px;
 }
-.tabContainer > .tabFlexColum {
-  margin-top: -31px;
+.tabFlexColum {
+  margin-top: -30px;
   display: flex;
   flex-direction: row;
   position: relative;
   width: 940px;
-  margin: 0 auto;
 }
-.tabContainer > .leftColum {
+.leftColum {
   float: none;
   min-width: 0;
   display: flex;
@@ -70,7 +69,7 @@
     line-height: 29px;
     font-size: 14px;
     color: #fff;
-    background: #1a2737;
+    // background: #1a2737;
     text-shadow: -1px -1px rgba(0, 0, 0, 0.25);
     cursor: default;
     margin-top: 0;
