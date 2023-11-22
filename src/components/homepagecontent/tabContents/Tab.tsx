@@ -4,7 +4,9 @@ import PopularNewProductData from './Data/PopularNewProductData.json'
 
 export default function Tab() {
   const tabType = ["신규 및 인기 신제품", "최고 인기 제품", "인기 출시 예정 제품", "특별 할인"];
+  let [productData, setProductData] = useState([PopularNewProductData,]);
   let [activeTab, setActiveTab] = useState<number>(0);
+  let [focusItem, setFoucsItem] = useState<number>(0);
 
   return(
     <div className="tabContainer" style={{overflow: 'visible'}}>
@@ -32,9 +34,9 @@ export default function Tab() {
                 </div>
               </div>
               {
-                PopularNewProductData.map((data, index)=>{
+                productData[activeTab].map((data, index)=>{
                   return(
-                    <div className="tabItem">
+                    <div className={focusItem === index ? "tabItem focus" : "tabItem"} onMouseOver={()=>{setFoucsItem(index)}}>
                       <div className="tabItemCap">
                         <img src={data.image} alt="" />
                       </div>
@@ -102,7 +104,43 @@ export default function Tab() {
             </div>
             </div>
         </div>
-        <div className="rightColum">2</div>
+        <div className="rightColum">
+          <div className="itemInfoContainer">
+            <div className="itemInfo">
+              <h2 className="itemTitle">{PopularNewProductData[focusItem].title}</h2>
+              <div className="itemEvaluation">
+                <div>전반적 사용자 평가: </div>
+                <div>
+                  {
+                    PopularNewProductData[focusItem].userEvaluation.evaluation.includes('긍정적') ? 
+                    <span style={{color:'#66c0f4'}}>{PopularNewProductData[focusItem].userEvaluation.evaluation}</span>
+                    : PopularNewProductData[focusItem].userEvaluation.evaluation.includes('부정적') ? 
+                    <span style={{color:'#A34C25'}}>{PopularNewProductData[focusItem].userEvaluation.evaluation}</span>
+                    : <span style={{color:'#B9A074'}}>{PopularNewProductData[focusItem].userEvaluation.evaluation}</span>
+                  }
+                  {` (${PopularNewProductData[focusItem].userEvaluation.count})`}
+                </div>
+              </div>
+              <div className="itemTag">
+                {
+                  PopularNewProductData[focusItem].usertag.map((tagData)=>{
+                    return(
+                      <div>{tagData}</div>
+                    )
+                  })
+                }
+              </div>
+              <div className="screenshotBox">
+                {
+                PopularNewProductData[focusItem].screenshot.map((data)=>{
+                  return(
+                    <img src={data}/>
+                  )
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
