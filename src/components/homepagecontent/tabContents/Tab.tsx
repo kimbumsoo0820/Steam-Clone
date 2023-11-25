@@ -1,12 +1,27 @@
 import React, { useState } from "react";
 import './Tab.scoped.scss'
-import PopularNewProductData from './Data/PopularNewProductData.json'
+import ProductData from './Data/ProductData.json'
 
 export default function Tab() {
-  const tabType = ["신규 및 인기 신제품", "최고 인기 제품", "인기 출시 예정 제품", "특별 할인"];
-  let [productData, setProductData] = useState([PopularNewProductData,]);
+  const tabType = ["신규 및 인기 신제품", "최고 인기 제품", "특별 할인"];
+  
   let [activeTab, setActiveTab] = useState<number>(0);
   let [focusItem, setFoucsItem] = useState<number>(0);
+
+  let newAndPopularData = [...ProductData];
+  let mostPopularData = [...ProductData];
+  let specialDiscountData = [...ProductData];
+  // 신규 및 인기 신제품 정렬 2023년 11월 기준
+  newAndPopularData.sort((prev, cur)=> cur.releasedate.indexOf("2023년 11월"));
+  newAndPopularData = newAndPopularData.slice(0, 10);
+  // 최고 인기 제품 정렬 유저평가 많은 순 기준
+  mostPopularData.sort((prev, cur)=> cur.userEvaluation.count - prev.userEvaluation.count)
+  mostPopularData = mostPopularData.slice(0, 10);
+  // 특별 할인 정렬 할인률 높은 순
+  specialDiscountData.sort((prev, cur)=> prev.discount - cur.discount);
+  specialDiscountData = specialDiscountData.slice(0, 10);
+
+  let [productData, setProductData] = useState([newAndPopularData, mostPopularData, specialDiscountData]);
 
   return(
     <div className="tabContainer" style={{overflow: 'visible'}}>
@@ -107,23 +122,23 @@ export default function Tab() {
         <div className="rightColum">
           <div className="itemInfoContainer">
             <div className="itemInfo">
-              <h2 className="itemTitle">{PopularNewProductData[focusItem].title}</h2>
+              <h2 className="itemTitle">{productData[activeTab][focusItem].title}</h2>
               <div className="itemEvaluation">
                 <div>전반적 사용자 평가: </div>
                 <div>
                   {
-                    PopularNewProductData[focusItem].userEvaluation.evaluation.includes('긍정적') ? 
-                    <span style={{color:'#66c0f4'}}>{PopularNewProductData[focusItem].userEvaluation.evaluation}</span>
-                    : PopularNewProductData[focusItem].userEvaluation.evaluation.includes('부정적') ? 
-                    <span style={{color:'#A34C25'}}>{PopularNewProductData[focusItem].userEvaluation.evaluation}</span>
-                    : <span style={{color:'#B9A074'}}>{PopularNewProductData[focusItem].userEvaluation.evaluation}</span>
+                    productData[activeTab][focusItem].userEvaluation.evaluation.includes('긍정적') ? 
+                    <span style={{color:'#66c0f4'}}>{productData[activeTab][focusItem].userEvaluation.evaluation}</span>
+                    : productData[activeTab][focusItem].userEvaluation.evaluation.includes('부정적') ? 
+                    <span style={{color:'#A34C25'}}>{productData[activeTab][focusItem].userEvaluation.evaluation}</span>
+                    : <span style={{color:'#B9A074'}}>{productData[activeTab][focusItem].userEvaluation.evaluation}</span>
                   }
-                  {` (${PopularNewProductData[focusItem].userEvaluation.count})`}
+                  {` (${productData[activeTab][focusItem].userEvaluation.count})`}
                 </div>
               </div>
               <div className="itemTag">
                 {
-                  PopularNewProductData[focusItem].usertag.map((tagData)=>{
+                  productData[activeTab][focusItem].usertag.map((tagData)=>{
                     return(
                       <div>{tagData}</div>
                     )
@@ -132,9 +147,9 @@ export default function Tab() {
               </div>
               <div className="screenshotBox">
                 {
-                PopularNewProductData[focusItem].screenshot.map((data)=>{
-                  return(
-                    <img src={data}/>
+                  productData[activeTab][focusItem].screenshot.map((data)=>{
+                    return(
+                      <img src={data}/>
                   )
                 })}
               </div>
