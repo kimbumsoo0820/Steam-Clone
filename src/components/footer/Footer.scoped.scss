@@ -1,0 +1,62 @@
+.footer{
+  background: black;
+  position: relative;
+  top: auto;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  padding: 16px 0 60px 0;
+}
+.footerContent{
+  width: 940px;
+  margin: 0px auto;
+  padding-top: 16px;
+}
+.line{
+  height: 8px;
+  border-top: 1px solid #363C44;
+}
+.logoSteam{
+  padding-top: 2px;
+  float: right;
+  border: none;
+}
+.logoValve{
+  padding-top: 2px;
+  float: left;
+  img{
+    height: 25px;
+    width: auto;
+  }
+}
+.footerText{
+  float: left;
+  margin-left: 12px;
+  color: #8F98A0;
+  font-size: 12px;
+  line-height: 16px;
+  a{
+    color: #C6D4DF;
+    text-decoration: none;
+    &:hover{
+      color: #fff;
+    }
+  }
+}
+.valveLink{
+  margin-top: 8px;
+  float: left;
+  font-weight: normal;
+  font-size: 13px;
+  color: #61686D;
+  a{
+    color: #C6D4DF;
+    text-decoration: none;
+    &:hover{
+      color: #fff;
+    }
+    img{
+      vertical-align: bottom;
+    }
+  }
+}
