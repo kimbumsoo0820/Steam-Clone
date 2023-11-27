@@ -1,0 +1,317 @@
+.tabContainer {
+  background: linear-gradient(to bottom, rgba(42, 71, 94, 1.0) 5%,
+  rgba(42, 71, 94, 0.0) 70%);
+  padding-top: 1px;
+  margin-top: 60px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 20px;
+}
+.tabFlexColum {
+  margin: -30px auto 0 auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 940px;
+}
+.leftColum {
+  float: none;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  width: 618px;
+}
+.tabButtonContainer {
+  margin-bottom: 8px;
+  height: 31px;
+  position: relative;
+  .tabButtonRow {
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+.tabButton{
+  display: inline-block;
+  margin-right: 0px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  font-size: 13px;
+  color: #2f89bc;
+  line-height: 24px;
+  cursor: pointer;
+  vertical-align: top;
+  margin-top: 3px;
+  .tabButtonContent {
+    box-shadow: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: 13px;
+    color: #4f94bc;
+    line-height: 24px;
+    padding: 0 10px;
+    vertical-align: top;
+  }
+}
+.active {
+  line-height: 29px;
+  font-size: 14px;
+  color: #fff;
+  background: #1a2737;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.25);
+  cursor: default;
+  margin-top: 0;
+  box-shadow: none;
+  .tabButtonContent {
+    border: none;
+    background-color: #2a475e;
+    line-height: 29px;
+    font-size: 14px;
+    color: #fff;
+    // background: #1a2737;
+    text-shadow: -1px -1px rgba(0, 0, 0, 0.25);
+    cursor: default;
+    margin-top: 0;
+    box-shadow: none;
+  }
+}
+.tabContent {
+  .seeMore {
+    color: #c6d4df;
+    font-size: 12px;
+    text-align: right;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    .seeMoreButton {
+      border-radius: 2px;
+      border: none;
+      padding: 1px;
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none !important;
+      color: #fff !important;
+      background: transparent;
+      &:hover{
+        text-decoration: none;
+        color: #fff ;
+        background: transparent;
+      }
+      span {
+        padding: 5px 15px;
+        font-size: 12px;
+        line-height: 24px;
+        background: transparent;
+        border: 1px solid rgba(255, 255, 255, 0.4);
+        border-radius: 2px;
+        &:hover {
+          background: transparent;
+          border: 1px solid rgba(255, 255, 255, 1);
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
+
+.tabItem {
+  position: relative;
+  display: block;
+  background: rgba(0, 0, 0, 0.2);
+  height: 69px;
+  margin-bottom: 5px;
+  padding-left: 198px;
+  .tabItemCap {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    line-height: 69px;
+    transition: opacity 0.25s;
+    img {
+      border: none;
+      width: 184px;
+      height: 69px;
+    }
+  }
+}
+
+.discountBlock{
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  float: right;
+  margin-top: 17px;
+  margin-right: 16px;
+  background: none;
+  width: 133px;
+  text-align: right;
+  .discountPercent{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 4px;
+    border-radius: 1px;
+    font-weight: 500;
+    color: #BEEE11;
+    background: #4c6b22;
+  }
+  .discountPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    padding-left: 4px;
+    .originalPrice{
+      position: relative;
+      width: fit-content;
+      color: #738895;
+      font-size: 11px;
+      line-height: 12px;
+      &::before {
+        content: '';
+        left: 0px;
+        right: 0px;
+        position: absolute;
+        top: 43%;
+        border-bottom: 1.5px solid #738895;
+        transform: skewY(-8deg);
+        box-shadow: 0 0 2px black;
+      }
+    }
+    .finalPrice{
+      color: #BEEE11;
+      line-height: 16px;
+      font-size: 15px;
+    }
+  }
+}
+.tabItemContent{
+  padding-top: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  .itemTitle{
+    color: #c7d5e0;
+    font-size: 1.25em;
+    line-height: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    overflow: hidden;
+    transition: color 0.25s;
+  }
+  .itemDetail{
+    color: #384959;
+    line-height: 20px;
+    .platform{
+      display: flex;
+    }
+  }
+}
+.platformImgWindows, .platformImgLinux, .platformImgMac{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  vertical-align: bottom;
+}
+.platformImgWindows {
+  background-image: url(https://store.akamai.steamstatic.com/public/images/v6/icon_platform_win.png?v=3);
+}
+.platformImgLinux{
+  background-image: url(https://store.akamai.steamstatic.com/public/images/v6/icon_platform_linux.png)
+}
+.platformImgMac{
+  background-image: url(https://store.akamai.steamstatic.com/public/images/v6/icon_platform_mac.png);
+}
+
+.userTag{
+  height: 20px;
+  white-space: normal;
+  overflow: hidden;
+}
+.rightColum{
+  display: flex;
+  flex-direction: column;
+  float: none;
+  margin-left: 14px;
+  width: 308px;
+} 
+.itemInfoContainer {
+  position: relative;
+  background: linear-gradient(to right, 
+  rgb(149, 187, 212) 5%, 
+  rgb(133, 155, 172) 95%);
+  background-size: auto;
+  display: block;
+  margin: 39px 0 0 5px;
+}
+.itemInfo{
+  display: block;
+  min-height: 760px;
+  margin-top: 9px;
+  margin-left: 16px;
+  .itemTitle{
+    color: rgb(38, 54, 69);
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: normal;
+    margin-bottom: 7px;
+  }
+  .itemEvaluation {
+    background-color: rgba(38, 54, 69, 0.6);
+    border-radius: 2px;
+    margin-bottom: 10px;
+    width: 258px;
+    font-size: 12px;
+    padding: 5px 7px 5px 7px;
+    color: rgb(198, 212, 223);
+  }
+  .itemTag{
+    height: 22px;
+    margin-top: 5px;
+    overflow: hidden;
+    div{
+      margin-bottom: 3px;
+      margin-right: 2px;
+      padding: 0px 7px 0px 7px;
+      max-width: 200px;
+      color: #fff;
+      font-size: 11px;
+      line-height: 19px;
+      background-color: rgba(38, 54, 69, 0.6);
+      border-radius: 2px;
+      display: inline-block;
+      cursor: pointer;
+    }
+  }
+  .screenshotBox{
+    margin-top: 5px;
+    width: 258px;
+    // outline: red dashed 1px;
+    img{
+      width: 100%;
+      margin-top: 3px;
+    }
+  }
+}
+
+.focus{
+  background-image: linear-gradient(to right, rgb(198, 230, 248) 5%, rgb(149, 188, 211) 95%);
+  margin-right: -21px;
+  .itemTitle {
+    color: rgb(16, 22, 27);
+  }
+  .discountBlock{
+    margin-right: 37px;
+    .discountPrice{
+      .finalPrice{
+        color: rgb(16, 22, 27);
+      }
+    }
+  }
+}

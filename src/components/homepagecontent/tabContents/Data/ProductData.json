@@ -1,0 +1,542 @@
+[
+  {
+    "id" : 1,
+    "title" : "Fruit salad",
+    "releasedate" : "2023년 11월 19일",
+    "price" : 2300,
+    "discount" : -25,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1848520/capsule_184x69.jpg?t=1700368021",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1848520/ss_27a34da35983768106808d108a48b37a49a9a0f7.600x338.jpg?t=1700368021",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1848520/ss_d223ea3c5ad224c82e798fb16b5a0adcc53e0b9a.600x338.jpg?t=1700368021",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1848520/ss_1e0c86ab91e4a76b6c3cee5c574b8a2ea8932693.600x338.jpg?t=1700368021",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1848520/ss_f17622d8c4548c2e7c4a36534fe2dd53e01114ca.600x338.jpg?t=1700368021"
+    ],
+    "usertag" : ["매치3", "캐주얼", "아케이드", "퍼즐", "2D"],
+    "userEvaluation" : {"evaluation" : "긍정적", "count" : 36},
+    "platform" : ["windows", "mac", "linux"]
+  },
+  {
+    "id" : 2,
+    "title" : "Warhammer Age of Sigmar: Realms of Ruin",
+    "releasedate" : "2023년 11월 18일",
+    "price" : 63000,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1844380/header.jpg?t=1700477245",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1844380/ss_65c79128b24b5f3ff0efcca9a1bad3879f67470e.600x338.jpg?t=1700477245",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1844380/ss_730d5e2f078dc0037a7c3ba1204a84c144d87075.600x338.jpg?t=1700477245",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1844380/ss_f8dfa3dbab69ed867fc9f326f619a54d5f7349e1.600x338.jpg?t=1700477245",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1844380/ss_b14292e67c98565bc37915327376c22ec0311b2b.600x338.jpg?t=1700477245"
+    ],
+    "usertag" : ["전략", "액션", "액션 RTS", "실시간 전략"],
+    "userEvaluation" : {"evaluation" : "대체로 긍정적", "count" : 521},
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 3,
+    "title" : "An Arcade Full of Cats",
+    "releasedate" : "2023년 11월 17일",
+    "price" : 0,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2368470/header.jpg?t=1700441481",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/2368470/ss_4c5d3942b6433fae2045a0c89940ba26437a9482.600x338.jpg?t=1700441481",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2368470/ss_957f43bdadcb227bfce45a1f6c77c415f5457097.600x338.jpg?t=1700441481",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2368470/ss_37e0808656e4bcf1583bc6db019bdf2f6841bc50.600x338.jpg?t=1700441481",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2368470/ss_5c9c036071f8040f53c08c77ff26f82fc16390fd.600x338.jpg?t=1700441481"
+    ],
+    "usertag" : ["고양이", "히든 오브젝트", "릴렉싱", "건전함", "퍼즐"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 707},
+    "platform" : ["windows", "linux"]
+  },
+  {
+    "id" : 4,
+    "title" : "환일의 요하네 -BLAZE in the DEEPBLUE-",
+    "releasedate" : "2023년 11월 16일",
+    "price" : 52800,
+    "discount" : -10,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2404370/header_koreana.jpg?t=1700121646",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/2404370/ss_0a6d2ac6c36d8837b185d4d6c9bfec6136f46f12.600x338.jpg?t=1700121646",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2404370/ss_15dfb3b248414c140d186b7b3993df4b5d604083.600x338.jpg?t=1700121646",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2404370/ss_2cdb98a69e4e3de4516eb543d6d4cd99af0a345c.600x338.jpg?t=1700121646",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2404370/ss_e9df19470dca51e97b08a4e7417f77c8d0e034f6.600x338.jpg?t=1700121646"
+    ],
+    "usertag" : ["액션", "어드벤처", "애니메이션", "메트로베니아", "2D"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 356},
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 5,
+    "title" : "American Arcadia",
+    "releasedate" : "2023년 11월 16일",
+    "price" : 21500,
+    "discount" : -10,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1249040/header.jpg?t=1700468263",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1249040/ss_cac0d053a9331eab41aa6a728f39b11139e0cba9.600x338.jpg?t=1700468263",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1249040/ss_f94b0d80610f5e89c93352532f4e25f53098abaf.600x338.jpg?t=1700468263",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1249040/ss_a87f88d2ab252704667aa7baa1540ed17bcb07ce.600x338.jpg?t=1700468263",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1249040/ss_63b6cdf312a343fb4f6e9a8ca5e23a7c27851d6b.600x338.jpg?t=1700468263"
+    ],
+    "usertag" : ["풍부한 스토리", "분위기 있는", "퍼즐", "탐험", "스릴러"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 221},
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 6,
+    "title" : "The Last Faith",
+    "releasedate" : "2023년 11월 15일",
+    "price" : 27930,
+    "discount" : -10,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1274600/header.jpg?t=1700511912",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1274600/ss_fc381df35ba9866853cb4622d080e2ca13aee99a.600x338.jpg?t=1700511912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1274600/ss_bbfa89c3f6456c4830e8cb337f9c715a329b201e.600x338.jpg?t=1700511912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1274600/ss_8f57a9fc68caf859cbfe6bebb7eb1caeee6c8f04.600x338.jpg?t=1700511912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1274600/ss_814d9f57b9ba81ce1c715f21b498424897266130.600x338.jpg?t=1700511912"
+    ],
+    "usertag" : ["메트로베니아", "소울라이크", "픽셀 그래픽", "폭력"],
+    "userEvaluation" : {"evaluation" : "대체로 긍정적", "count" : 731},
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 7,
+    "title" : "Backpack Hero",
+    "releasedate" : "2023년 11월 15일",
+    "price" : 21500,
+    "discount" : -15,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1970580/header_alt_assets_2_koreana.jpg?t=1700121780",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1970580/ss_88867b194c1099cbc4482f47e922b9d3004f8849.600x338.jpg?t=1700121780",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1970580/ss_35a544ba891e3a2b74b56d49ce546fa18d7843e4.600x338.jpg?t=1700121780",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1970580/ss_a9c4024afabe37fe5c1be1aa6f62013369e39da3.600x338.jpg?t=1700121780",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1970580/ss_eb8122cdbdb626200274967440eae4e00fce8c89.600x338.jpg?t=1700121780"
+    ],
+    "usertag" : ["리플레이 가치", "덱빌딩", "로그라이크 덱빌딩", "턴제"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 3852},
+    "platform" : ["windows", "mac", "linux"]
+  },
+  {
+    "id" : 8,
+    "title" : "애스트럴 어센트",
+    "releasedate" : "2023년 11월 15일",
+    "price" : 26000,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1280930/header.jpg?t=1700122480",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1280930/ss_6be80c92570afd159805a081e967128874578fa7.600x338.jpg?t=1700122480",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1280930/ss_bfbe3e2fd6fe34645602c4f30e27ed4eb9841a8a.600x338.jpg?t=1700122480",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1280930/ss_cc1531e6464155973419b878a6f0069807f84ef3.600x338.jpg?t=1700122480",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1280930/ss_d43692d7f25b408a6ab74a21d21d8821fe24eea8.600x338.jpg?t=1700122480"
+    ],
+    "usertag" : ["로그라이크", "액션 로그라이크", "픽셀 그래픽", "플랫폼"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 1505},
+    "platform" : ["windows", "linux", "mac"]
+  },
+  {
+    "id" : 9,
+    "title" : "Coral Island",
+    "releasedate" : "2023년 11월 15일",
+    "price" : 35000,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1158160/header_alt_assets_1_koreana.jpg?t=1699982807",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1158160/ss_197d35ede9bd2a4f0ad74ba085c54295cac36416.600x338.jpg?t=1699982807",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1158160/ss_95bd1ad9921954944f6d7a19c9bba2a777040f5f.600x338.jpg?t=1699982807",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1158160/ss_731214cddc279a600f942ff9eb9e8c7ebbfedf27.600x338.jpg?t=1699982807",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1158160/ss_260172855d8ee6918d4d0ff347f875678b4835b2.600x338.jpg?t=1699982807"
+    ],
+    "usertag" : ["농장 시뮬레이션", "생활 시뮬레이션", "릴랙싱", "농업"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 7858},
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 10,
+    "title" : "Refind Self: 성격 진단 게임",
+    "releasedate" : "2023년 11월 14일",
+    "price" : 8900,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2514960/header_koreana.jpg?t=1700145463",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/2514960/ss_f15b2fd9f0830fa0c321fdfd4113d7f15cb322f2.600x338.jpg?t=1700145463",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2514960/ss_fb1e236b41bccb53e669b21e505f78c32fef386a.600x338.jpg?t=1700145463",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2514960/ss_6336178df8a78fd8d63b72da44d3aa09d82b4608.600x338.jpg?t=1700145463",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2514960/ss_a38912d3e90a1b89913023ca3ffefd21a138437b.600x338.jpg?t=1700145463"
+    ],
+    "usertag" : ["캐주얼", "선택의 중요성", "어드벤처", "픽셀 그래픽"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 589},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 11,
+    "title" : "DJMAX RESPECT V",
+    "releasedate" : "2020년 3월 12일",
+    "price" : 19800,
+    "discount" : -80,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/960170/header.jpg?t=1666858912",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/960170/ss_36e75f6ba736b11a3e3085992557cade3c48ae7c.600x338.jpg?t=1666858912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/960170/ss_d4a266df64345c4229e682ab68ab4e07dd599de7.600x338.jpg?t=1666858912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/960170/ss_5c780d4651037a34937aef1d9b8690bfa4769bb5.600x338.jpg?t=1666858912",
+      "https://cdn.akamai.steamstatic.com/steam/apps/960170/ss_293d41c2e4e9d43b1f058ec77870c5e8cf01a2e9.600x338.jpg?t=1666858912"
+    ],
+    "usertag" : ["리듬", "캐주얼", "음악", "액션", "스포츠"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 20514},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 12,
+    "title" : "PUBG: BATTLEGROUNDS",
+    "releasedate" : "2017년 12월 21일",
+    "price" : 0,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg?t=1700369413",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/578080/ss_66e156cf716e72096c15c132c3443e774cb2f9a5.600x338.jpg?t=1700369413",
+      "https://cdn.akamai.steamstatic.com/steam/apps/578080/ss_63bb4a659968c3417ddd2ea5fd82cd2143e458a0.600x338.jpg?t=1700369413",
+      "https://cdn.akamai.steamstatic.com/steam/apps/578080/ss_3857268f02113c5095ff7bc73f814bd80ade8c2e.600x338.jpg?t=1700369413",
+      "https://cdn.akamai.steamstatic.com/steam/apps/578080/ss_034714c0f118657ac694c5b9c43bb647ed9ec051.600x338.jpg?t=1700369413"
+    ],
+    "usertag" : ["생존", "슈팅", "배틀 로얄", "멀티플레이어", "PvP"],
+    "userEvaluation" : {"evaluation" : "복합적", "count" : 2250898},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 13,
+    "title" : "EA SPORTS FC™ 24",
+    "releasedate" : "2023년 9월 29일",
+    "price" : 77000,
+    "discount" : -50,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/2195250/header.jpg?t=1700755232",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/2195250/ss_f3d31c7cffc2a6ab42fb76aaac2bc9d5258bc142.600x338.jpg?t=1700755232",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2195250/ss_6c1ef918ffe94050e72dcb2cfad3a95ee3d69f08.600x338.jpg?t=1700755232",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2195250/ss_eb8f5def662f28726c875e641cd5faff75e6b16d.600x338.jpg?t=1700755232",
+      "https://cdn.akamai.steamstatic.com/steam/apps/2195250/ss_96496b17bd35a97ceb926231e963762d3b86c3c8.600x338.jpg?t=1700755232"
+    ],
+    "usertag" : ["스포츠", "축구", "컨트롤러", "PvP", "경쟁"],
+    "userEvaluation" : {"evaluation" : "복합적", "count" : 18309},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 14,
+    "title" : "이터널 리턴",
+    "releasedate" : "2023년 7월 20일",
+    "price" : 0,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1049590/header.jpg?t=1700622099",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1049590/ss_7c4c293eb9a9bfed4e7cc1cd51eec947fd968eac.600x338.jpg?t=1700622099",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1049590/ss_f7fa5f2a2552a49d69bf35883a3d0c857295131b.600x338.jpg?t=1700622099",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1049590/ss_2a433a30425d9f96abb4a41c3c6d42a5f6e80df1.600x338.jpg?t=1700622099",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1049590/ss_6b80214a3452625390f4b92274b34fca8ddb6e8b.600x338.jpg?t=1700622099"
+    ],
+    "usertag" : ["무료 플레이", "애니메이션", "멀티플레이어", "MOBA", "생존"],
+    "userEvaluation" : {"evaluation" : "대체로 긍정적", "count" : 52584},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 15,
+    "title" : "Cyberpunk 2077",
+    "releasedate" : "2020년 12월 10일",
+    "price" : 66000,
+    "discount" : -50,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header_alt_assets_1_koreana.jpg?t=1700653204",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_b529b0abc43f55fc23fe8058eddb6e37c9629a6a.600x338.jpg?t=1700653204",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_9284d1c5b248726760233a933dbb83757d7d5d95.600x338.jpg?t=1700653204",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_e5a94665dbfa5a30931cff2f45cdc0ebea9fcebb.600x338.jpg?t=1700653204",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_ae4465fa8a44dd330dbeb7992ba196c2f32cabb1.600x338.jpg?t=1700653204"
+    ],
+    "usertag" : ["사이버펑크", "오픈 월드", "누드", "RPG", "공상과학"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 599408},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 16,
+    "title" : "호그와트 레거시",
+    "releasedate" : "2023년 2월 11일",
+    "price" : 79800,
+    "discount" : -40,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg?t=1699983982",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/990080/ss_725bf58485beb4aa37a3a69c1e2baa69bf3e4653.600x338.jpg?t=1699983982",
+      "https://cdn.akamai.steamstatic.com/steam/apps/990080/ss_df93b5e8a183f7232d68be94ae78920a90de1443.600x338.jpg?t=1699983982",
+      "https://cdn.akamai.steamstatic.com/steam/apps/990080/ss_94058497bf0f8fabdde17ee8d59bece609a60663.600x338.jpg?t=1699983982",
+      "https://cdn.akamai.steamstatic.com/steam/apps/990080/ss_8e08976236d29b1897769257ac3c64e9264792a5.600x338.jpg?t=1699983982"
+    ],
+    "usertag" : ["마법", "판타지", "오픈 월드", "싱글 플레이어", "RPG"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 167266},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 17,
+    "title" : "Red Dead Redemption 2",
+    "releasedate" : "2019년 12월 6일",
+    "price" : 66000,
+    "discount" : -67,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg?t=1695140956",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1174180/ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.600x338.jpg?t=1695140956",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1174180/ss_bac60bacbf5da8945103648c08d27d5e202444ca.600x338.jpg?t=1695140956",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1174180/ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.600x338.jpg?t=1695140956",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1174180/ss_d1a8f5a69155c3186c65d1da90491fcfd43663d9.600x338.jpg?t=1695140956"
+    ],
+    "usertag" : ["오픈 월드", "풍부한 스토리", "웨스턴", "어드벤쳐", "말"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 443084},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 18,
+    "title" : "데이브 더 다이버",
+    "releasedate" : "2023년 6월 28일",
+    "price" : 24000,
+    "discount" : -20,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1868140/header.jpg?t=1692149536",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1868140/ss_7c86a17d545b6260ecdcfdd62622e49dcc9011bd.600x338.jpg?t=1692149536",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1868140/ss_783e1f6c2d4c358fb494d055c47c0e888922abd5.600x338.jpg?t=1692149536",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1868140/ss_6eac5a3b59e181d1ffa26757b041be521bfe1779.600x338.jpg?t=1692149536",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1868140/ss_bc9150385c6fcd41ac7195be36597469f54a792c.600x338.jpg?t=1692149536"
+    ],
+    "usertag" : ["픽셀 그래픽", "캐주얼", "어드벤처", "RPG", "경영"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 65465},  
+    "platform" : ["windows", "mac"]
+  },
+  {
+    "id" : 19,
+    "title" : "산나비",
+    "releasedate" : "2023년 11월 9일",
+    "price" : 15500,
+    "discount" : -20,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1562700/header_koreana.jpg?t=1699513185",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1562700/ss_9309623510d853bf750877457f863e45eb7c6cbe.600x338.jpg?t=1699513185",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1562700/ss_dc42526e8a4db7c389494d0a14d5c21da1974c51.600x338.jpg?t=1699513185",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1562700/ss_4c2d1c53e327b002eb10d544d45a6b01381c3f95.600x338.jpg?t=1699513185",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1562700/ss_a2622d9f393597e6e61cd25520a4b23e77a29192.600x338.jpg?t=1699513185"
+    ],
+    "usertag" : ["액션", "픽셀 그래픽", "어드벤처", "사이퍼 ", "2D"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 6964},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 20,
+    "title" : "Limbus Company",
+    "releasedate" : "2023년 2월 27일",
+    "price" : 0,
+    "discount" : 0,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1973530/header.jpg?t=1700041402",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1973530/ss_37611a1ac9a0be00b6c9a447690af634614d2ca5.600x338.jpg?t=1700041402",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1973530/ss_9300b58dd4878b4f7fde82269a232534515f34ef.600x338.jpg?t=1700041402",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1973530/ss_c14bbf4d204aab3372dfb89b1101556dde999ac1.600x338.jpg?t=1700041402",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1973530/ss_911e799ef3a6cabccd6c1faa7f400e8c80abfb71.600x338.jpg?t=1700041402"
+    ],
+    "usertag" : ["깊은 세계관", "풍부한 스토리", "RPG", "턴제 전술", "전략"],
+    "userEvaluation" : {"evaluation" : "대체로 긍정적", "count" : 24967},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 21,
+    "title" : "Battlefield™ V",
+    "releasedate" : "2018년 11월 9일",
+    "price" : 55000,
+    "discount" : -92,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1238810/header.jpg?t=1700043402",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1238810/ss_73a21e43ec44cac9aab41d122a284582d194d352.600x338.jpg?t=1700043402",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1238810/ss_0c20c45d2e00feae5b9edfb6526662cc3c669164.600x338.jpg?t=1700043402",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1238810/ss_d1952d018415b94bed85a503713a05ab12a407d6.600x338.jpg?t=1700043402",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1238810/ss_79d886247bd93e4762f3ece00acc4f75e21cc126.600x338.jpg?t=1700043402"
+    ],
+    "usertag" : ["1인칭 슈팅", "제2차 세계대전", "멀티플레이어", "슈팅", "전쟁"],
+    "userEvaluation" : {"evaluation" : "대체로 긍정적", "count" : 147992},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 22,
+    "title" : "It Takes Two",
+    "releasedate" : "2021년 3월 26일",
+    "price" : 44000,
+    "discount" : -70,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1426210/header_koreana.jpg?t=1691006466",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1426210/ss_3e59753eefaba9a7704a18e902b48e8d38e95e0b.600x338.jpg?t=1691006466",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1426210/ss_6e987a0678b013bfd0073a9ac4703e1f04ca4dea.600x338.jpg?t=1691006466",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1426210/ss_fdac523e3ea4d2f32a44449bb8c224857563bd7d.600x338.jpg?t=1691006466",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1426210/ss_4a62bc8fa398fc5b2094a6225dc5ecff9485f824.600x338.jpg?t=1691006466"
+    ],
+    "usertag" : ["협동", "멀티플레이어", "분할 화면", "퍼즐", "어드벤처"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 121521},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 23,
+    "title" : "Grand Theft Auto V",
+    "releasedate" : "2015년 4월 14일",
+    "price" : 44000,
+    "discount" : -63,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1695060909",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_32aa18ab3175e3002217862dd5917646d298ab6b.600x338.jpg?t=1695060909",
+      "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_2744f112fa060320d191a50e8b3a92441a648a56.600x338.jpg?t=1695060909",
+      "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_da39c16db175f6973770bae6b91d411251763152.600x338.jpg?t=1695060909",
+      "https://cdn.akamai.steamstatic.com/steam/apps/271590/ss_bc5fc79d3366c837372327717249a4887aa46d63.600x338.jpg?t=1695060909"
+    ],
+    "usertag" : ["오픈 월드", "액션", "멀티플레이어", "범죄", "3인칭"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 1522426},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 24,
+    "title" : "Rust",
+    "releasedate" : "2018년 2월 9일",
+    "price" : 46000,
+    "discount" : -33,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1699598132",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_271feae67943bdc141c1249aba116349397e9ba9.600x338.jpg?t=1699598132",
+      "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_e825b087b95e51c3534383cfd75ad6e8038147c3.600x338.jpg?t=1699598132",
+      "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_0e646f1a70e5cb8eed00efef8adb9579d40d5b2e.600x338.jpg?t=1699598132",
+      "https://cdn.akamai.steamstatic.com/steam/apps/252490/ss_1c2d0d1eefee54f0c67626c74eb21699bbb0ef52.600x338.jpg?t=1699598132"
+    ],
+    "usertag" : ["생존", "크래프팅", "멀티플레이어", "오픈 월드", "건설"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 808527},  
+    "platform" : ["windows", "mac"]
+  },
+  {
+    "id" : 25,
+    "title" : "DARK SOULS™ III",
+    "releasedate" : "2016년 4월 12일",
+    "price" : 49800,
+    "discount" : -50,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1700587390",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.600x338.jpg?t=1700587390",
+      "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_1c0fa39091901496d77cf4cecfea4ffb056d6452.600x338.jpg?t=1700587390",
+      "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_1318a04ef11d87f38aebe6d47a96124f8f888ca8.600x338.jpg?t=1700587390",
+      "https://cdn.akamai.steamstatic.com/steam/apps/374320/ss_61524dee9ebf72d462638f21adbbbea4c93d791d.600x338.jpg?t=1700587390"
+    ],
+    "usertag" : ["소울라이크", "다크 판타지", "고난이도", "RPG", "3인칭"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 233620},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 26,
+    "title" : "페르소나 5 더 로열",
+    "releasedate" : "2022년 10월 21일",
+    "price" : 69800,
+    "discount" : -40,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1687950/header.jpg?t=1688115070",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_663171dc3afce8fe987e57e8659f91b69faa39bc.600x338.jpg?t=1688115070",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_a3258aba84ae2f2ff13a02a160f7495bfc152adb.600x338.jpg?t=1688115070",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_ddcc016b8e5c434ccbd1a89c0157ce73acf905ae.600x338.jpg?t=1688115070",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1687950/ss_38d09e40dd56df43a1bb083dc94e27cb1360b526.600x338.jpg?t=1688115070"
+    ],
+    "usertag" : ["JRPG", "풍부한 스토리", "애니메이션", "턴제 전투", "RPG"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 34871},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 27,
+    "title" : "Sid Meier’s Civilization® VI",
+    "releasedate" : "2016년 10월 21일",
+    "price" : 65000,
+    "discount" : -90,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/289070/header.jpg?t=1680898825",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/289070/ss_6c4a3cfb61f1a9677cf2ac549c2816a4e651f741.600x338.jpg?t=1680898825",
+      "https://cdn.akamai.steamstatic.com/steam/apps/289070/ss_b2bf12299c38214fe520af0f724a6349d17ed330.600x338.jpg?t=1680898825",
+      "https://cdn.akamai.steamstatic.com/steam/apps/289070/ss_7f598198526afc260d939a98af4d76d95f5349e4.600x338.jpg?t=1680898825",
+      "https://cdn.akamai.steamstatic.com/steam/apps/289070/ss_7ca34ff8ae81fb10ddc540187e2e21d1b8e1dfe9.600x338.jpg?t=1680898825"
+    ],
+    "usertag" : ["전략", "턴제 전략", "멀티플레이어", "역사", "대전략"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 208047},  
+    "platform" : ["windows","linux","mac"]
+  },
+  {
+    "id" : 28,
+    "title" : "Marvel’s Spider-Man Remastered",
+    "releasedate" : "2022년 8월 12일",
+    "price" : 62800,
+    "discount" : -40,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1817070/header.jpg?t=1700663145",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1817070/ss_dfe778bf6d66e952e4acd4e1f926f7615b609ddf.600x338.jpg?t=1700663145",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1817070/ss_427677cf78195df94702f0a963cd9eaeb9d8935a.600x338.jpg?t=1700663145",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1817070/ss_dfba6f2477bfa42be69ddfdffbd421d3943d20bf.600x338.jpg?t=1700663145",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1817070/ss_ad14a7daa190cb150fbb070afc70bc64d66a5e2e.600x338.jpg?t=1700663145"
+    ],
+    "usertag" : ["슈퍼 히어로", "오픈 월드", "액션", "싱글 플레이어", "전투"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 59455},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 29,
+    "title" : "Sea of Thieves 2023 Edition",
+    "releasedate" : "2020년 6월 3일",
+    "price" : 39400,
+    "discount" : -50,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg?t=1698169862",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1172620/ss_ec623c77d75dfa098c622b547b1ab21ad4cae0a8.600x338.jpg?t=1698169862",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1172620/ss_6ea04bdc415c336a195555aec4b97a73a9910fc1.600x338.jpg?t=1698169862",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1172620/ss_2144ac860fd64d82cb9cc49680f5087c7bb8fe2f.600x338.jpg?t=1698169862",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1172620/ss_4fb90cbac34d2cbe74b86383bda660cd0316b907.600x338.jpg?t=1698169862"
+    ],
+    "usertag" : ["멀티플레이어", "어드벤처", "오픈 월드", "해적", "협동"],
+    "userEvaluation" : {"evaluation" : "매우 긍정적", "count" : 262319},  
+    "platform" : ["windows"]
+  },
+  {
+    "id" : 30,
+    "title" : "God of War",
+    "releasedate" : "2022년 1월 15일",
+    "price" : 52800,
+    "discount" : -40,
+    "image" : "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg?t=1695758729",
+    "screenshot" : 
+    [
+      "https://cdn.akamai.steamstatic.com/steam/apps/1593500/ss_6eccc970b5de2943546d93d319be1b5c0618f21b.600x338.jpg?t=1695758729",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1593500/ss_f1bff24d3967a21d303d95e11ed892e3d9113057.600x338.jpg?t=1695758729",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1593500/ss_3670ba72c7e3e9c3c3225547ef2c1053504e62b8.600x338.jpg?t=1695758729",
+      "https://cdn.akamai.steamstatic.com/steam/apps/1593500/ss_93a3ca63aa2cd8c675bbb6430324ee3f2d44b845.600x338.jpg?t=1695758729"
+    ],
+    "usertag" : ["액션", "싱글 플레이어", "풍부한 스토리", "어드벤처", "신화"],
+    "userEvaluation" : {"evaluation" : "압도적으로 긍정적", "count" : 79511},  
+    "platform" : ["windows"]
+  }
+]

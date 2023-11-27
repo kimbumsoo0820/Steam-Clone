@@ -65,10 +65,12 @@ export default function GameInfoCard({gameData, index}) {
 function GameHover(gameData, index, setIsHover) {
   let gameHoverInfo : HTMLElement = document.querySelectorAll('.gameHoverInfo')[index%2] as HTMLElement;
   gameHoverInfo.style.visibility ="visible";
+  gameHoverInfo.style.opacity = '1';
   setIsHover(true);
 }
 function GameHoverOut(gameData, index, setIsHover) {
   let gameHoverInfo : HTMLElement = document.querySelectorAll('.gameHoverInfo')[index%2] as HTMLElement;
   gameHoverInfo.style.visibility ="hidden";
+  gameHoverInfo.style.opacity = '0';
   setIsHover(false);
 }

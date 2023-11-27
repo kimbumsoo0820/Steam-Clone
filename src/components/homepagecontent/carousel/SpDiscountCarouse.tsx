@@ -31,14 +31,14 @@ const SpecialDiscountContainer = (pageCount :number, focusPage : number) => {
             <SmallGameCard gameData={GameSmallCardData[6]} index={6}></SmallGameCard>
             <SmallGameCard gameData={GameSmallCardData[7]} index={7}></SmallGameCard>
           </div>
-          {/* <div>
-            <SmallGameCard gameData={GameSmallCardData[8]}></SmallGameCard>
-            <SmallGameCard gameData={GameSmallCardData[9]}></SmallGameCard>
+          <div>
+            <SmallGameCard gameData={GameSmallCardData[8]} index={8}></SmallGameCard>
+            <SmallGameCard gameData={GameSmallCardData[9]} index={9}></SmallGameCard>
           </div>
           <div>
-            <SmallGameCard gameData={GameSmallCardData[10]}></SmallGameCard>
-            <SmallGameCard gameData={GameSmallCardData[11]}></SmallGameCard>
-          </div> */}
+            <SmallGameCard gameData={GameSmallCardData[10]} index={10}></SmallGameCard>
+            <SmallGameCard gameData={GameSmallCardData[11]} index={11}></SmallGameCard>
+          </div>
         </>:
         <>
           {
@@ -60,8 +60,6 @@ const SpecialDiscountContainer = (pageCount :number, focusPage : number) => {
                 }
               })
             }
-            {/* <SmallGameCard gameData={GameSmallCardData[focusPage*2]}></SmallGameCard>
-            <SmallGameCard gameData={GameSmallCardData[focusPage*2+1]}></SmallGameCard> */}
           </div>
         </>
       }
