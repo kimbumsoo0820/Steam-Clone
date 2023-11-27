@@ -8,17 +8,12 @@ import SortSets from './Sort.json'
 import games from './CardData.json'
 
 
-
-
-
 import { setOptions, setSorts, setGame, setFirst } from '../../redux/modules/favoritSort';
 import { useDispatch, useSelector } from 'react-redux'
 import { RootState, AppDispatch } from '../../redux'
 import FavoritCardMyRank from '../../components/favorit/FavoritCardMyRank';
 
 import Footer from '../../components/footer/Footer';
-
-
 
 
 // function GetGameData() {
@@ -44,6 +39,7 @@ export default function Home() {
   
   const gameList = useSelector((state: RootState) => state.favoritSort);
   const firstLoad = useSelector((state: RootState) => state.favoritSort.firstLoad);
+  
   useEffect(() => {
     if(firstLoad) {
       dispatch(setGame(games))
@@ -53,9 +49,9 @@ export default function Home() {
     dispatch(setSorts(SortSets))
   }, [])
   useEffect(()=> {
-    setLoading(true)
     console.log('부모 gameData : ',gameList.games)
     setGameData(gameList.games)
+    setLoading(true)
   },[gameList.games])
   function changeOptionStatus() {
     setsortStatus(false)
