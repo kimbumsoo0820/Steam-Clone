@@ -17,21 +17,23 @@ export default function GameInfoCard({gameData, index}) {
     }
   },)
   return (
-    <div className='bigCardContainer' onMouseOver={()=>GameHover(gameData, index, setIsHover)} onMouseOut={()=>GameHoverOut(gameData, index, setIsHover)}>
-      <div className="cardImg">
-        <img src={gameData.image}/>
-      </div>
-      <div className="cardContent">
-        <h2>주중 특가</h2>
-        <div className='contentBody'>
-          할인 혜텍은 2023년 11월 21일 오전 3시 00분에 종료됩니다.
+    <div className='bigCardContainer'  >
+      <div onMouseOver={()=>GameHover(gameData, index, setIsHover)} onMouseOut={()=>GameHoverOut(gameData, index, setIsHover)}>
+        <div className="cardImg">
+          <img src={gameData.image}/>
         </div>
-        <div className='discountArea'>
-          <div className='discountBlock'>
-            <div className="discountPercent">{gameData.discount}%</div>
-            <div className="discountPrice">
-              <div className="discountOriginalPrice">₩ {[gameData.price].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
-              <div className="discountFinalPrice">₩ {[gameData.price - ((gameData.discount*0.01)*(-1)*(gameData.price))].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
+        <div className="cardContent">
+          <h2>주중 특가</h2>
+          <div className='contentBody'>
+            할인 혜텍은 2023년 11월 21일 오전 3시 00분에 종료됩니다.
+          </div>
+          <div className='discountArea'>
+            <div className='discountBlock'>
+              <div className="discountPercent">{gameData.discount}%</div>
+              <div className="discountPrice">
+                <div className="discountOriginalPrice">₩ {[gameData.price].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
+                <div className="discountFinalPrice">₩ {[gameData.price - ((gameData.discount*0.01)*(-1)*(gameData.price))].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')}</div>
+              </div>
             </div>
           </div>
         </div>
