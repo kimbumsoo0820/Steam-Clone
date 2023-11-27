@@ -133,7 +133,7 @@ export default function Tab() {
                     <span style={{color:'#A34C25'}}>{productData[activeTab][focusItem].userEvaluation.evaluation}</span>
                     : <span style={{color:'#B9A074'}}>{productData[activeTab][focusItem].userEvaluation.evaluation}</span>
                   }
-                  {` (${productData[activeTab][focusItem].userEvaluation.count})`}
+                  {` (${[productData[activeTab][focusItem].userEvaluation.count].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',')})`}
                 </div>
               </div>
               <div className="itemTag">

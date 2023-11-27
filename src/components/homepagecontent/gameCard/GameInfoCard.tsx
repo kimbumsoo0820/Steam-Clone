@@ -17,7 +17,7 @@ export default function GameInfoCard({gameData, index}) {
     }
   },)
   return (
-    <div className='bigCardContainer'  >
+    <div className='bigCardContainer'>
       <div onMouseOver={()=>GameHover(gameData, index, setIsHover)} onMouseOut={()=>GameHoverOut(gameData, index, setIsHover)}>
         <div className="cardImg">
           <img src={gameData.image}/>

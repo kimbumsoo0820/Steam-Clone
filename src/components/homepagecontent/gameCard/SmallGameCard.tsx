@@ -19,7 +19,7 @@ export default function SmallGameCard({gameData, index}) {
   const hoverInfoRef : LegacyRef<HTMLDivElement> = createRef();
   
   return (
-    <div className="smallGameCardContainer" >
+    <div className="smallGameCardContainer">
       <div onMouseOver={()=>GameHover(setIsHover, hoverInfoRef)} onMouseOut={()=>GameHoverOut(setIsHover, hoverInfoRef)}>
         <div className="cardImg">
           <img src={gameData.mainImg}/>
