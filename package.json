@@ -16,7 +16,6 @@
     "axios": "^1.6.0",
     "craco-alias": "^3.0.1",
     "craco-plugin-scoped-css": "^1.1.1",
-    "gh-pages": "^6.1.0",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-beautiful-dnd": "^13.1.1",
@@ -33,9 +32,7 @@
     "start": "craco start",
     "build": "craco bulid",
     "test": "craco test",
-    "eject": "react-scripts eject",
-    "depoly" : "gh-pages -d build",
-    "predeploy" : "npm run build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -60,6 +57,5 @@
     "babel-plugin-react-scoped-css": "^1.1.1",
     "scoped-css-loader": "^1.0.0",
     "tsconfig-paths-webpack-plugin": "^4.1.0"
-  },
-  "homepage": "https://jo-se-hyeon.github.io/kimbumsoo0820/Steam-Clone"
+  }
 }
